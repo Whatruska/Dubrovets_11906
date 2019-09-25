@@ -2,21 +2,21 @@ package Lesson;
 
 import java.util.Scanner;
 
-public class Loader {
+public class FirstTask {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        int a = scanner.nextInt();
+        int n = scanner.nextInt();
 
-        int num = 0;
-        int sum = 0;
+        int max = Integer.MIN_VALUE;
 
-        while (a != -1){
-            sum = sum + a;
-            num++;
-            a = scanner.nextInt();
+        while (n != -1){
+            if (n > max){
+                max = n;
+            }
+            n = scanner.nextInt();
         }
 
-        System.out.println(sum / num);
+        System.out.println(max);
     }
 }
