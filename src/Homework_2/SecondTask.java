@@ -11,7 +11,7 @@ public class SecondTask {
 
         int count = 2;
         boolean isPrime = true;
-        while (count < p){
+        while (count < p/2){
             if (p % count == 0){
                 isPrime = false;
                 break;

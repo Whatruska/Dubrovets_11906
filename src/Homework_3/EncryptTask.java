@@ -18,7 +18,7 @@ public class EncryptTask {
         while (i < n){
             int a = scanner.nextInt();
             a = a + k;
-            System.out.println(a % 25);
+            System.out.println(a % 26);
             i++;
         }
     }
