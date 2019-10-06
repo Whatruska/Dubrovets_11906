@@ -15,7 +15,7 @@ public class SecondTask {
         int count = 0;
         int result = 0;
         int xInFactor = 1;
-        while (count < n){
+        while (count < n/2){
             int a = scanner.nextInt();
             int currResult = a * xInFactor;
             result = result + currResult;

@@ -16,10 +16,15 @@ public class DecryptTask {
         System.out.println("Введите последовательность");
         while (i < n){
             int a = scanner.nextInt();
-            a = a + 25;
             a = a - k;
-            a++;
-            System.out.println(a % 26);
+            if (a < 0){
+                a = a + 25;
+                System.out.println(a % 26);
+            } else if (a == 25) {
+                System.out.println(a);
+            } else {
+                System.out.println(a % 25);
+            }
             i++;
         }
     }

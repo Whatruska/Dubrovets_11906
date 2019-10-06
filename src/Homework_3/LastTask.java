@@ -17,7 +17,7 @@ public class LastTask {
         while (i < n){
             char ch = scanner.next().charAt(0);
             if (!isKeyDefined){
-                k = (int) 'h' - ch;
+                k = (int) ch - 'h';
                 isKeyDefined = true;
             }
             int a = (int) ch;
