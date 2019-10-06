@@ -14,6 +14,7 @@ public class FirstTask_2 {
         boolean bool2 = y >= 0;
         boolean bool3 = y <= x + 1;
         boolean bool4 =  y <= -x + 1;
+
         boolean isCorrect = false;
 
         if (bool2){

@@ -18,7 +18,7 @@ public class SecondTask_2 {
 
         boolean isCorrect = false;
 
-        if (!bool1 || bool2 || bool3 || bool4){
+        if (!bool1){
             if (!bool2){
                 if (!bool3){
                     if (!bool4){
