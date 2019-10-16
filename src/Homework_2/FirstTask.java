@@ -14,11 +14,21 @@ public class FirstTask {
 
         int count = 0;
         int result = 1;
-        while (count < n){
-            result = result * x;
-            count++;
+
+        while (count <= n/2){
+            if (count == 0){
+                result = result * x;
+                count++;
+            } else {
+                count *= 2;
+                result *= result;
+            }
         }
 
+        while (count > n){
+            result /= x;
+            count--;
+        }
         System.out.println("Х в степени N = " + result);
     }
 }
