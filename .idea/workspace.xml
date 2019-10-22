@@ -2,20 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ae29f03-7a4d-4b58-af30-606242732d3a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Homework_5/OptimisedFourthTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework_6/BubleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson_4/FirstTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson_4/SecondTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson_4/ThirdTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson_5/FirstTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson_5/SecondTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tutor/Fibo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tutor/Abc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tutor/Array2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Homework_2/FirstTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KPFU_INFO/Homework_2/FirstTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_2/FirstTask_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_2/FirstTask_2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_2/SecondTask_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_2/SecondTask_2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework_2/FirstTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework_2/FirstTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_5/FirstTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_5/FirstTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson_6/FifthTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_6/FifthTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson_6/FirstTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_6/FirstTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson_6/FourthTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_6/FourthTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson_6/SecondTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_6/SecondTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson_6/SixthTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_6/SixthTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson_6/ThirdTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_6/ThirdTask.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,29 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Tutor/Fibo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Lesson_5/SecondTask.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Lesson_5/FirstTask.java">
+        <entry file="file://$PROJECT_DIR$/src/Lesson_6/FifthTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+            <state relative-caret-position="225">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -71,15 +49,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Lesson/Loader.java" />
-        <option value="$PROJECT_DIR$/src/Lesson/FirstTask.java" />
-        <option value="$PROJECT_DIR$/src/Lesson/ThirdTask.java" />
-        <option value="$PROJECT_DIR$/src/Lesson/FourthTask.java" />
-        <option value="$PROJECT_DIR$/src/Homework_3/FastFactor.java" />
-        <option value="$PROJECT_DIR$/src/Homework_3/EncryptTask.java" />
-        <option value="$PROJECT_DIR$/src/dubrovets_11906/Lesson/SecondTask.java" />
-        <option value="$PROJECT_DIR$/src/dubrovets_11906/Lesson/FourthTask.java" />
-        <option value="$PROJECT_DIR$/src/dubrovets_11906/Lesson/FirstTask.java" />
         <option value="$PROJECT_DIR$/src/dubrovets_11906/Lesson/ThirdTask.java" />
         <option value="$PROJECT_DIR$/src/dubrovets_11906/Homework_3/DecryptTask.java" />
         <option value="$PROJECT_DIR$/src/dubrovets_11906/Homework_3/FastFactor.java" />
@@ -122,11 +91,20 @@
         <option value="$PROJECT_DIR$/src/Homework_5/OptimisedFourthTask.java" />
         <option value="$PROJECT_DIR$/src/Tutor/Fibo.java" />
         <option value="$PROJECT_DIR$/src/Lesson_5/FirstTask.java" />
+        <option value="$PROJECT_DIR$/src/Lesson_6/SecondTask.java" />
+        <option value="$PROJECT_DIR$/src/Lesson_6/F.java" />
+        <option value="$PROJECT_DIR$/src/Lesson_6/FirstTask.java" />
+        <option value="$PROJECT_DIR$/src/Lesson_6/FourthTask.java" />
+        <option value="$PROJECT_DIR$/src/Lesson_6/FifthTask.java" />
+        <option value="$PROJECT_DIR$/src/Tutor/Array2.java" />
+        <option value="$PROJECT_DIR$/src/Tutor/Abc.java" />
+        <option value="$PROJECT_DIR$/src/Lesson_6/ThirdTask.java" />
+        <option value="$PROJECT_DIR$/src/Lesson_6/SixthTask.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="40" />
+    <option name="x" value="30" />
     <option name="y" value="23" />
     <option name="width" value="1364" />
     <option name="height" value="877" />
@@ -154,13 +132,7 @@
               <item name="KPFU_INFO" type="b2602c69:ProjectViewProjectNode" />
               <item name="KPFU_INFO" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Lesson_5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KPFU_INFO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KPFU_INFO" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Tutor" type="462c0819:PsiDirectoryNode" />
+              <item name="Lesson_6" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -197,22 +169,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FirstTask (2)">
-    <configuration name="BubleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homework_6.BubleSort" />
-      <module name="KPFU_INFO" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Homework_6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Fibo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tutor.Fibo" />
+  <component name="RunManager" selected="Application.FifthTask">
+    <configuration name="Abc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tutor.Abc" />
       <module name="KPFU_INFO" />
       <extension name="coverage">
         <pattern>
@@ -224,12 +183,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstTask (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_5.FirstTask" />
+    <configuration name="FifthTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_6.FifthTask" />
       <module name="KPFU_INFO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson_5.*" />
+          <option name="PATTERN" value="Lesson_6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -237,12 +196,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OptimisedFourthTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homework_5.OptimisedFourthTask" />
+    <configuration name="FourthTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_6.FourthTask" />
       <module name="KPFU_INFO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Homework_5.*" />
+          <option name="PATTERN" value="Lesson_6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -250,12 +209,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecondTask (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_5.SecondTask" />
+    <configuration name="SixthTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_6.SixthTask" />
       <module name="KPFU_INFO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson_5.*" />
+          <option name="PATTERN" value="Lesson_6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThirdTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_6.ThirdTask" />
+      <module name="KPFU_INFO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson_6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -265,11 +237,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FirstTask (2)" />
-        <item itemvalue="Application.Fibo" />
-        <item itemvalue="Application.OptimisedFourthTask" />
-        <item itemvalue="Application.SecondTask (1)" />
-        <item itemvalue="Application.BubleSort" />
+        <item itemvalue="Application.FifthTask" />
+        <item itemvalue="Application.SixthTask" />
+        <item itemvalue="Application.FourthTask" />
+        <item itemvalue="Application.ThirdTask" />
+        <item itemvalue="Application.Abc" />
       </list>
     </recent_temporary>
   </component>
@@ -310,7 +282,9 @@
       <workItem from="1571123822824" duration="1381000" />
       <workItem from="1571126550281" duration="2154000" />
       <workItem from="1571204797817" duration="7104000" />
-      <workItem from="1571248551135" duration="3347000" />
+      <workItem from="1571248551135" duration="8669000" />
+      <workItem from="1571568978029" duration="9128000" />
+      <workItem from="1571649694916" duration="6099000" />
     </task>
     <task id="LOCAL-00001" summary="First homework complete">
       <created>1568803577014</created>
@@ -323,13 +297,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52630000" />
+    <option name="totallyTimeSpent" value="73179000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="40" y="23" width="1364" height="877" extended-state="0" />
-    <editor active="true" />
+    <frame x="30" y="23" width="1364" height="877" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.36913767" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3797277" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -432,6 +405,32 @@
           <line>12</line>
           <properties />
           <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Lesson_6/FourthTask.java</url>
+          <line>8</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Tutor/Array2.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Lesson_6/FifthTask.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Lesson_6/FourthTask.java</url>
+          <line>5</line>
+          <properties class="Lesson_6.FourthTask" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="45" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -664,10 +663,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tutor/Fibo.java">
+    <entry file="file://$PROJECT_DIR$/src/Lesson_5/FirstTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        <state relative-caret-position="256">
+          <caret line="29" column="41" lean-forward="true" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -678,10 +677,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lesson_5/FirstTask.java">
+    <entry file="file://$PROJECT_DIR$/src/Tutor/Fibo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+        <state relative-caret-position="135">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tutor/Abc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tutor/Array2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lesson_6/FirstTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lesson_6/SecondTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lesson_6/SixthTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lesson_6/ThirdTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lesson_6/FourthTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="50" lean-forward="true" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lesson_6/FifthTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
