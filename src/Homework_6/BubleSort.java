@@ -14,7 +14,7 @@ public class BubleSort {
         }
 
         i = 0;
-        while (i < 3){
+        while (i < n - 1){
             j = i + 1;
             while (j < n){
                 if (arr[i] > arr[j]){

@@ -21,13 +21,12 @@ public class TestTask {
         return arr;
     }
 
-    private static void writeMatrix(int[][] arr){
-        int n = arr[0].length;
-        int m = arr.length;
-        for (int i = 0; i < n; i++){
-            for (int j = 0; j < m; j++){
-                System.out.println(arr[i][j]);
+    private static void writeMatrix(int[][] matrix){
+        for (int[] arr : matrix){
+            for (int elem : arr){
+                System.out.print(elem + " ");
             }
+            System.out.println();
         }
     }
 }

@@ -12,23 +12,18 @@ public class FirstTask {
         System.out.print("Введите n : ");
         int n = scanner.nextInt();
 
-        int count = 0;
-        int result = 1;
+        int p = 1;
 
-        while (count <= n/2){
-            if (count == 0){
-                result = result * x;
-                count++;
+        while (n > 1){
+            if (n % 2 == 0){
+                n /= 2;
+                x *= x;
             } else {
-                count *= 2;
-                result *= result;
+                p *= x;
+                n--;
             }
         }
 
-        while (count > n){
-            result /= x;
-            count--;
-        }
-        System.out.println("Х в степени N = " + result);
+        System.out.println("Х в степени N = " + p * x);
     }
 }

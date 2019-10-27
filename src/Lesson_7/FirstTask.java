@@ -23,7 +23,6 @@ public class FirstTask {
     }
 
     private static void writeArray(int[] arr){
-        int n = arr.length;
         for (int elem : arr){
             System.out.print(elem + " ");
         }
