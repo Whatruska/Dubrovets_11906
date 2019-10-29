@@ -20,15 +20,15 @@ public class Matrix {
         System.out.println("Ввод матрицы D");
         double[][] D = readMatrix(n);
 
-        double[][] leftMatrix = addMatrix(A, B);
-        leftMatrix = multiplyToScalar(leftMatrix, 5);
-        leftMatrix = multiplyMatrix(leftMatrix, C);
+        double[][] leftMatrix = addMatrix(A, B, n);
+        leftMatrix = multiplyToScalar(leftMatrix, 5, n);
+        leftMatrix = multiplyMatrix(leftMatrix, C, n);
 
-        double[][] rightMatrix = subMatrix(C, D);
-        rightMatrix = multiplyMatrix(rightMatrix, D);
-        rightMatrix = multiplyToScalar(rightMatrix, 7);
+        double[][] rightMatrix = subMatrix(C, D, n);
+        rightMatrix = multiplyMatrix(rightMatrix, D, n);
+        rightMatrix = multiplyToScalar(rightMatrix, 7, n);
 
-        double[][] E = subMatrix(leftMatrix, rightMatrix);
+        double[][] E = subMatrix(leftMatrix, rightMatrix, n);
         writeMatrix(E);
     }
 
@@ -52,42 +52,32 @@ public class Matrix {
         }
     }
 
-    private static double[][] multiplyToScalar(double[][] matrix, double scalar){
-        double[][] result = matrix;
-        int n = matrix.length;
+    private static double[][] multiplyToScalar(double[][] matrix, double scalar, int n){
         for (int i = 0; i < n; i++){
             for (int j = 0; j < n; j++){
-                result[i][j] *= scalar;
+                matrix[i][j] *= scalar;
             }
         }
-        return result;
+        return matrix;
     }
 
-    private static double[][] addMatrix(double[][] matrix1, double[][] matrix2){
-        double [][] result = matrix1;
-        int n = matrix1.length;
+    private static double[][] addMatrix(double[][] matrix1, double[][] matrix2, int n){
         for (int i = 0; i < n; i++){
             for (int j = 0; j < n; j++){
-                result[i][j] += matrix2[i][j];
+                matrix1[i][j] += matrix2[i][j];
             }
         }
-        return result;
+        return matrix1;
     }
 
-    private static double[][] subMatrix(double[][] matrix1, double[][] matrix2){
-        double [][] result = matrix1;
-        int n = matrix1.length;
-        for (int i = 0; i < n; i++){
-            for (int j = 0; j < n; j++){
-                result[i][j] -= matrix2[i][j];
-            }
-        }
-        return result;
+    private static double[][] subMatrix(double[][] matrix1, double[][] matrix2, int n){
+        matrix2 = multiplyToScalar(matrix2, -1, n);
+        matrix1 = addMatrix(matrix1, matrix2, n);
+        return matrix1;
     }
 
-    private static double[][] copyMatrix(double[][] srcMatrix){
-        double[][] result = new double[srcMatrix.length][srcMatrix.length];
-        int n = srcMatrix.length;
+    private static double[][] copyMatrix(double[][] srcMatrix, int n){
+        double[][] result = new double[n][n];
         for (int i = 0; i < n; i++){
             for (int j = 0; j < n; j++){
                 result[i][j] = srcMatrix[i][j];
@@ -96,21 +86,19 @@ public class Matrix {
         return result;
     }
 
-    private static double[][] multiplyMatrix(double[][] matrix1, double[][] matrix2){
-        int n = matrix1.length;
+    private static double[][] multiplyMatrix(double[][] matrix1, double[][] matrix2, int n){
         double[][] result = new double[n][n];
         for (int i = 0; i < n; i++){
             for (int j = 0; j < n; j++){
                 double[] row = matrix1[i];
-                double[] vertical = formVertical(matrix2, j);
-                result[i][j] = countMultiplyResult(row, vertical);
+                double[] vertical = formVertical(matrix2, j, n);
+                result[i][j] = countMultiplyResult(row, vertical, n);
             }
         }
         return result;
     }
 
-    private static double[] formVertical(double[][] matrix, int numOfVert){
-        int n = matrix.length;
+    private static double[] formVertical(double[][] matrix, int numOfVert, int n){
         double[] result = new double[n];
         for (int i = 0; i < n; i++){
             result[i] = matrix[i][numOfVert];
@@ -118,9 +106,9 @@ public class Matrix {
         return result;
     }
 
-    private static double countMultiplyResult(double[] row, double[] vertical){
+    private static double countMultiplyResult(double[] row, double[] vertical, int n){
         double result = 0;
-        for (int i = 0; i < row.length; i++){
+        for (int i = 0; i < n; i++){
             result += row[i] * vertical[i];
         }
         return result;
