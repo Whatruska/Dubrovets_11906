@@ -30,9 +30,9 @@ public class Complex {
     }
 
     private static double[] addComplex(double[] complex1, double[] complex2){
-        double realPart = getRealPart(complex1) + getRealPart(complex2);
-        double mnemoPart = getMnemoPart(complex1) + getMnemoPart(complex2);
-        return formComplex(realPart, mnemoPart);
+        setRealPart(complex1, getRealPart(complex1) + getRealPart(complex2));
+        setMnemoPart(complex1, getMnemoPart(complex1) + getMnemoPart(complex2));
+        return complex1;
     }
 
     private static double[] subComplex(double[] complex1, double[] complex2){
@@ -41,9 +41,9 @@ public class Complex {
     }
 
     private static double[] multiplyToNum(double[] complex, double num){
-        double realPart = getRealPart(complex) * num;
-        double mnemoPart = getMnemoPart(complex) * num;
-        return formComplex(realPart, mnemoPart);
+        setRealPart(complex,getRealPart(complex) * num);
+        setMnemoPart(complex,getMnemoPart(complex) * num);
+        return complex;
     }
 
     private static double[] divigeToNum(double[] complex, double num){
@@ -64,8 +64,6 @@ public class Complex {
     }
 
     private static double[] divide(double[] complex1, double[] complex2){
-        double a = getRealPart(complex1);
-        double b = getMnemoPart(complex1);
         double c = getRealPart(complex2);
         double d = getMnemoPart(complex2);
         return divigeToNum(
@@ -104,8 +102,9 @@ public class Complex {
         System.out.println(getArgument(complex1));
         System.out.println(getModulus(complex1));
         writeComplex(complex1);
-        setModulus(complex1, 2.8);
-        System.out.println(getArgument(complex1));
+        pow(complex1, 4);
         writeComplex(complex1);
+        System.out.println(getArgument(complex1));
+        System.out.println(getModulus(complex1));
     }
 }
