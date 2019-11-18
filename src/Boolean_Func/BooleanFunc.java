@@ -39,7 +39,10 @@ public class BooleanFunc {
                     if (ch == '1') {
                         System.out.print("¬");
                     }
-                    System.out.print("x" + j + "V");
+                    System.out.print("x" + j);
+                    if (j < bitString.length() - 1){
+                        System.out.print("V");
+                    }
                 }
                 if (count > 1){
                     count--;
@@ -91,7 +94,8 @@ public class BooleanFunc {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите вектор значений : ");
-        String vector = scanner.nextLine();
+        String rawVector = scanner.nextLine();
+        String vector = rawVector.replaceAll("\\s+", "");
         if (!isTwoInFactor(vector.length())){
             System.out.println("Неверно введен вектор значений");
         } else {
