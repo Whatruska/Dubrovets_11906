@@ -17,7 +17,6 @@ public class Complex {
         setMnemoPart(result, mnemoPart);
         return result;
     }
-
     public static double getRealPart(double[] complex){
         return complex[0];
     }
