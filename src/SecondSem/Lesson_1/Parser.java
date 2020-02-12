@@ -1,6 +1,8 @@
 package SecondSem.Lesson_1;
 
 import java.util.InputMismatchException;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class Parser {
     private String string;
@@ -9,7 +11,7 @@ public class Parser {
     private Operation operation;
     private int index;
 
-    public Parser(String string) throws InputMismatchException{
+    public Parser(String string) throws InputMismatchException, WrongOperationException, TooLongArgumentException {
         this.string = string;
         checkFormat();
         index = findOperationIndex();
@@ -87,34 +89,21 @@ public class Parser {
         return Operation.MULTIPLY;
     }
 
-    public void checkBigMultiply() throws TooLongException{
-        int l1 = getLength(getFirstNum());
-        int l2 = getLength(getSecondNum());
-        if (l1 + l2 > 16) {
-            throw new TooLongException();
+    private void checkFormat() throws InputMismatchException, TooLongArgumentException, WrongOperationException {
+        Matcher tooLongMatcher = Pattern.compile("[0-9]{16,}").matcher(string);
+        Matcher wrongOperation = Pattern.compile("[^\\+\\-\\*\\/0-9]").matcher(string);
+        if (tooLongMatcher.find()){
+            throw new TooLongArgumentException();
         }
-    }
-
-    public void checkBigSum() throws TooLongException{
-        if (getLength(getFirstNum() + getSecondNum()) > 16) {
-            throw new TooLongException();
+        if (wrongOperation.find()){
+            throw new WrongOperationException();
         }
-    }
-
-    public void checkDivide() throws ArithmeticException{
-        if (secondNum == 0){
-            throw new ArithmeticException();
-        }
-    }
-
-    private void checkFormat() throws InputMismatchException {
-        //TODO: Check format
-        if (!string.matches("^\\-?[0-9]{0,15}\\s+[\\+\\-\\*\\/]\\s+[0-9]{0,15}$")) {
+        if (!string.matches("^\\s*\\-?[0-9]{0,15}\\s*[\\+\\-\\*\\/]\\s*[0-9]{0,15}\\s*$")) {
             throw new InputMismatchException();
         }
     }
 
-    public int getLength(long a){
+    public static int getLength(long a){
         int count = 0;
         while (a > 0){
             count++;

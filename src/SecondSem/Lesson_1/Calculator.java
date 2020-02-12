@@ -3,41 +3,35 @@ package SecondSem.Lesson_1;
 import java.util.InputMismatchException;
 
 public class Calculator {
-    public static long calculate(String input){
-        try {
-            Parser parser = new Parser(input);
-            long a = parser.getFirstNum();
-            Operation operation = parser.getOperation();
-            long b = parser.getSecondNum();
+    public static long calculate(String input) throws ArithmeticException, TooLongResultException, InputMismatchException, WrongOperationException, TooLongArgumentException {
+        Parser parser = new Parser(input);
+        long a = parser.getFirstNum();
+        Operation operation = parser.getOperation();
+        long b = parser.getSecondNum();
 
-            switch (operation){
-                case PLUS:{
-                    parser.checkBigSum();
-                    return (a + b);
-                }
-
-                case MINUS:{
-                    return (a - b);
-                }
-
-                case DIVIDE:{
-                    parser.checkDivide();
-                    return (a / b);
-                }
-
-                case MULTIPLY:{
-                    parser.checkBigMultiply();
-                    return (a * b);
-                }
+        switch (operation){
+            case PLUS:{
+                Checker.checkBigSum(a,b);
+                return (a + b);
             }
-        } catch (ArithmeticException e){
-            System.out.println("Бесконечность");
-        } catch (TooLongException e){
-            System.out.println("Слишком большое число в результате");
-        } catch (InputMismatchException e){
-            System.out.println("Неверный формат");
-        }
 
-        return -1;
+            case MINUS:{
+                Checker.checkBigSub(a,b);
+                return (a - b);
+            }
+
+            case DIVIDE:{
+                Checker.checkDivide(b);
+                return (a / b);
+            }
+
+            case MULTIPLY:{
+                Checker.checkBigMultiply(a,b);
+                return (a * b);
+            }
+
+            default:
+                return -1;
+        }
     }
 }

@@ -2,230 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ae29f03-7a4d-4b58-af30-606242732d3a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/SecondSem/Lesson_1/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SecondSem/Lesson_1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SecondSem/Lesson_1/Operation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SecondSem/Lesson_1/Parser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SecondSem/Lesson_1/TooLongException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecondSem/Lesson_1/Checker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecondSem/Lesson_1/TooLongArgumentException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecondSem/Lesson_1/WrongOperationException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Boolean_Func/BooleanFunc.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Complex_2_0/ComplexNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Complex_2_0/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Homework_1/FirstTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Homework_1/SecondTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Homework_10/FirstTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Homework_11/Substring.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Homework_2/FirstTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Homework_2/SecondTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Homework_2/ThirdTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Homework_3/DecryptTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Homework_3/EncryptTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Homework_3/FastFactor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Homework_3/LastTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Homework_4/TimeCheck.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Homework_5/FirstTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Homework_5/FourthTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Homework_5/FourthTask_SecondPart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Homework_5/OptimisedFourthTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Homework_5/SecondTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Homework_5/ThirdTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Homework_6/BubleSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Homework_8/Complex.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Homework_9/FirstTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Homework_9/SecondTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Homework_9/ThirdTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_1/FirstTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_1/FourthTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_1/SecondTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_1/ThirdTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_10/StringHelper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_11/Regex.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_12/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_13/DynamicStudentArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_13/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_13/Marks.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_13/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_13/StudentSystem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_13/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_14/Cashier.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_14/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_14/Shop.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_14/ShopDepartment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_14/ShopSystem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_15/CircleShip.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_15/Loader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_15/Point.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_15/Ship.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_15/ShipSystem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_15/ShipType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_15/SquareShip.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_15/TriangleShip.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_16/AnimalArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_16/Animals/Cow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_16/Animals/Goat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_16/Animals/Horse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_16/Farm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_16/Interfaces/Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_16/Interfaces/Eatable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_16/Interfaces/Meatable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_16/Interfaces/Milkable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_16/Interfaces/Moveable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_16/Interfaces/Woolable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_16/Loader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_2/FirstTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_2/FirstTask_2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_2/SecondTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_2/SecondTask_2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_3/FirstTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_3/FourthTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_3/SecondTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_3/ThirdTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_4/FirstTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_4/SecondTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_4/ThirdTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_5/FirstTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_5/SecondTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_6/FifthTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_6/FirstTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_6/FourthTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_6/SecondTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_6/SixthTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_6/ThirdTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_7/FirstTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_7/SecondTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_7/TestTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_8/Matrix.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_9/FirstTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_9/SecondTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Lesson_9/ThirdTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/ShapeCompare/Line.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/ShapeCompare/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/ShapeCompare/NShape.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/ShapeCompare/Point.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/ShapeCompare/Rectangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/ShapeCompare/Shape.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/ShapeCompare/Triangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Tutor/AbrStud.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Tutor/Array.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Tutor/CameraInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Tutor/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Tutor/Phone.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Tutor/PhoneInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Tutor/Rand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Tutor/Reflection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Tutor/SmartPhoneInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Tutor/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Tutor/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Tutor/acmp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Boolean_Func/BooleanFunc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Boolean_Func/BooleanFunc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Complex_2_0/ComplexNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Complex_2_0/ComplexNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Complex_2_0/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Complex_2_0/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework_1/FirstTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Homework_1/FirstTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework_1/SecondTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Homework_1/SecondTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework_10/FirstTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Homework_10/FirstTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework_11/Substring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Homework_11/Substring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework_2/FirstTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Homework_2/FirstTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework_2/SecondTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Homework_2/SecondTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework_2/ThirdTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Homework_2/ThirdTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework_3/DecryptTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Homework_3/DecryptTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework_3/EncryptTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Homework_3/EncryptTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework_3/FastFactor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Homework_3/FastFactor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework_3/LastTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Homework_3/LastTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework_4/TimeCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Homework_4/TimeCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework_5/FirstTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Homework_5/FirstTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework_5/FourthTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Homework_5/FourthTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework_5/FourthTask_SecondPart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Homework_5/FourthTask_SecondPart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework_5/OptimisedFourthTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Homework_5/OptimisedFourthTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework_5/SecondTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Homework_5/SecondTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework_5/ThirdTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Homework_5/ThirdTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework_6/BubleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Homework_6/BubleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework_8/Complex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Homework_8/Complex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework_9/FirstTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Homework_9/FirstTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework_9/SecondTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Homework_9/SecondTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework_9/ThirdTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Homework_9/ThirdTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_1/FirstTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Lesson_1/FirstTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_1/FourthTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Lesson_1/FourthTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_1/SecondTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Lesson_1/SecondTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_1/ThirdTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Lesson_1/ThirdTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_10/StringHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Lesson_10/StringHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_11/Regex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Lesson_11/Regex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_12/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Lesson_12/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_13/DynamicStudentArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Lesson_13/DynamicStudentArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_13/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Lesson_13/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_13/Marks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Lesson_13/Marks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_13/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Lesson_13/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_13/StudentSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Lesson_13/StudentSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_13/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Lesson_13/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_14/Cashier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Lesson_14/Cashier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_14/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Lesson_14/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_14/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Lesson_14/Shop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_14/ShopDepartment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Lesson_14/ShopDepartment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_14/ShopSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Lesson_14/ShopSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_15/CircleShip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Lesson_15/CircleShip.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_15/Loader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Lesson_15/Loader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_15/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Lesson_15/Point.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_15/Ship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Lesson_15/Ship.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_15/ShipSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Lesson_15/ShipSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_15/ShipType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Lesson_15/ShipType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_15/SquareShip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Lesson_15/SquareShip.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_15/TriangleShip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Lesson_15/TriangleShip.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_16/AnimalArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Lesson_16/AnimalArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_16/Animals/Cow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Lesson_16/Animals/Cow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_16/Animals/Goat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Lesson_16/Animals/Goat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_16/Animals/Horse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Lesson_16/Animals/Horse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_16/Farm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Lesson_16/Farm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_16/Interfaces/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Lesson_16/Interfaces/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_16/Interfaces/Eatable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Lesson_16/Interfaces/Eatable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_16/Interfaces/Meatable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Lesson_16/Interfaces/Meatable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_16/Interfaces/Milkable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Lesson_16/Interfaces/Milkable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_16/Interfaces/Moveable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Lesson_16/Interfaces/Moveable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_16/Interfaces/Woolable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Lesson_16/Interfaces/Woolable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_16/Loader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Lesson_16/Loader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_2/FirstTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Lesson_2/FirstTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_2/FirstTask_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Lesson_2/FirstTask_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_2/SecondTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Lesson_2/SecondTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_2/SecondTask_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Lesson_2/SecondTask_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_3/FirstTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Lesson_3/FirstTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_3/FourthTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Lesson_3/FourthTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_3/SecondTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Lesson_3/SecondTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_3/ThirdTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Lesson_3/ThirdTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_4/FirstTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Lesson_4/FirstTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_4/SecondTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Lesson_4/SecondTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_4/ThirdTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Lesson_4/ThirdTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_5/FirstTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Lesson_5/FirstTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_5/SecondTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Lesson_5/SecondTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_6/FifthTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Lesson_6/FifthTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_6/FirstTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Lesson_6/FirstTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_6/FourthTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Lesson_6/FourthTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_6/SecondTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Lesson_6/SecondTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_6/SixthTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Lesson_6/SixthTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_6/ThirdTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Lesson_6/ThirdTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_7/FirstTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Lesson_7/FirstTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_7/SecondTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Lesson_7/SecondTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_7/TestTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Lesson_7/TestTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_8/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Lesson_8/Matrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_9/FirstTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Lesson_9/FirstTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_9/SecondTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Lesson_9/SecondTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_9/ThirdTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Lesson_9/ThirdTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ShapeCompare/Line.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/ShapeCompare/Line.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ShapeCompare/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/ShapeCompare/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ShapeCompare/NShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/ShapeCompare/NShape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ShapeCompare/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/ShapeCompare/Point.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ShapeCompare/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/ShapeCompare/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ShapeCompare/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/ShapeCompare/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ShapeCompare/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/ShapeCompare/Triangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tutor/AbrStud.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Tutor/AbrStud.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tutor/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Tutor/Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tutor/CameraInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Tutor/CameraInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tutor/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Tutor/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tutor/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Tutor/Phone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tutor/PhoneInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Tutor/PhoneInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tutor/Rand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Tutor/Rand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tutor/Reflection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Tutor/Reflection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tutor/SmartPhoneInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Tutor/SmartPhoneInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tutor/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Tutor/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tutor/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Tutor/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tutor/acmp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstSem/Tutor/acmp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/SecondSem/Lesson_1/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KPFU_INFO/SecondSem/Lesson_1/Calculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/SecondSem/Lesson_1/Parser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KPFU_INFO/SecondSem/Lesson_1/Parser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SecondSem/Lesson_1/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SecondSem/Lesson_1/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SecondSem/Lesson_1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SecondSem/Lesson_1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SecondSem/Lesson_1/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SecondSem/Lesson_1/Parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SecondSem/Lesson_1/TooLongException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SecondSem/Lesson_1/TooLongResultException.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -239,45 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SecondSem/Lesson_1/Calculator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/SecondSem/Lesson_1/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/SecondSem/Lesson_1/Checker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="11" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SecondSem/Lesson_1/Parser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1125">
-              <caret line="75" column="37" selection-start-line="75" selection-start-column="37" selection-end-line="75" selection-end-column="37" />
-              <folding>
-                <element signature="e#567#568#0" expanded="true" />
-                <element signature="e#633#634#0" expanded="true" />
-                <element signature="e#704#705#0" expanded="true" />
-                <element signature="e#1493#1494#0" expanded="true" />
-                <element signature="e#1553#1554#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SecondSem/Lesson_1/TooLongException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="315">
+              <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -299,9 +51,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Lesson_15/Shape.java" />
-        <option value="$PROJECT_DIR$/src/Lesson_15/Triangle.java" />
-        <option value="$PROJECT_DIR$/src/Lesson_15/Circle.java" />
         <option value="$PROJECT_DIR$/src/Lesson_15/Square.java" />
         <option value="$PROJECT_DIR$/src/Lesson_15/TriangleShip.java" />
         <option value="$PROJECT_DIR$/src/Lesson_15/CircleShip.java" />
@@ -346,16 +95,19 @@
         <option value="$PROJECT_DIR$/src/FirstSem/ShapeCompare/Line.java" />
         <option value="$PROJECT_DIR$/src/SecondSem/Lesson_1/FirstTask.java" />
         <option value="$PROJECT_DIR$/src/SecondSem/Lesson_1/Operation.java" />
+        <option value="$PROJECT_DIR$/src/SecondSem/Lesson_1/Checker.java" />
         <option value="$PROJECT_DIR$/src/SecondSem/Lesson_1/TooLongException.java" />
-        <option value="$PROJECT_DIR$/src/SecondSem/Lesson_1/Main.java" />
+        <option value="$PROJECT_DIR$/src/SecondSem/Lesson_1/TooLongArgumentException.java" />
+        <option value="$PROJECT_DIR$/src/SecondSem/Lesson_1/WrongOperationException.java" />
         <option value="$PROJECT_DIR$/src/SecondSem/Lesson_1/Parser.java" />
         <option value="$PROJECT_DIR$/src/SecondSem/Lesson_1/Calculator.java" />
+        <option value="$PROJECT_DIR$/src/SecondSem/Lesson_1/Main.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="y" value="23" />
-    <option name="width" value="1410" />
+    <option name="width" value="1405" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -366,6 +118,35 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Dubrovets_11906" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dubrovets_11906" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dubrovets_11906" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dubrovets_11906" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dubrovets_11906" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dubrovets_11906" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="SecondSem" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dubrovets_11906" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dubrovets_11906" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="SecondSem" type="462c0819:PsiDirectoryNode" />
+              <item name="Lesson_1" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Production'; set:Production; class com.intellij.psi.search.scope.ProjectProductionScope">
@@ -404,35 +185,6 @@
               <item name="KPFU_INFO" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="ShapeCompare" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Dubrovets_11906" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Dubrovets_11906" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Dubrovets_11906" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Dubrovets_11906" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Dubrovets_11906" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Dubrovets_11906" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="SecondSem" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Dubrovets_11906" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Dubrovets_11906" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="SecondSem" type="462c0819:PsiDirectoryNode" />
-              <item name="Lesson_1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -489,12 +241,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SecondSem.Lesson_1.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FirstSem.ShapeCompare.Main" />
       <module name="KPFU_INFO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SecondSem.Lesson_1.*" />
+          <option name="PATTERN" value="FirstSem.ShapeCompare.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -503,11 +255,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FirstSem.ShapeCompare.Main" />
+      <option name="MAIN_CLASS_NAME" value="SecondSem.Lesson_1.Main" />
       <module name="KPFU_INFO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FirstSem.ShapeCompare.*" />
+          <option name="PATTERN" value="SecondSem.Lesson_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -547,7 +299,6 @@
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Reflection" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Loader (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -655,7 +406,8 @@
       <workItem from="1579288443219" duration="345000" />
       <workItem from="1579339032571" duration="2131000" />
       <workItem from="1579341670591" duration="84000" />
-      <workItem from="1581408154628" duration="6283000" />
+      <workItem from="1581408154628" duration="6513000" />
+      <workItem from="1581484330753" duration="4164000" />
     </task>
     <task id="LOCAL-00001" summary="First homework complete">
       <created>1568803577014</created>
@@ -668,13 +420,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="198497000" />
+    <option name="totallyTimeSpent" value="202891000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1410" height="877" extended-state="6" />
+    <frame x="0" y="23" width="1405" height="877" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" id="Project" order="0" visible="true" weight="0.37061402" />
+      <window_info active="true" id="Project" order="0" visible="true" weight="0.37564197" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -838,25 +590,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/FirstSem/Lesson_10/StringHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FirstSem/Homework_11/Substring.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2">
-          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-          <folding>
-            <element signature="e#90#91#0" expanded="true" />
-            <element signature="e#168#169#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tutor/Camera.java" />
     <entry file="file://$PROJECT_DIR$/src/Tutor/Device.java" />
     <entry file="file://$PROJECT_DIR$/src/FirstSem/Tutor/CameraInterface.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1165,20 +898,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/Rectangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/RectangleManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Rectangle.java" />
+    <entry file="file://$USER_HOME$/Downloads/RectangleManager.java" />
     <entry file="file://$PROJECT_DIR$/src/FirstSem/ShapeCompare/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -1193,55 +914,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SecondSem/Lesson_1/FirstTask.java">
+    <entry file="file://$PROJECT_DIR$/src/SecondSem/Lesson_1/FirstTask.java" />
+    <entry file="file://$PROJECT_DIR$/src/SecondSem/Lesson_1/Operation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SecondSem/Lesson_1/TooLongResultException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SecondSem/Lesson_1/WrongOperationException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="54" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SecondSem/Lesson_1/TooLongArgumentException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="55" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SecondSem/Lesson_1/Parser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-788">
+          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#536#537#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
+            <element signature="e#633#634#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#704#705#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SecondSem/Lesson_1/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SecondSem/Lesson_1/Operation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SecondSem/Lesson_1/Parser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="75" column="37" selection-start-line="75" selection-start-column="37" selection-end-line="75" selection-end-column="37" />
-          <folding>
-            <element signature="e#567#568#0" expanded="true" />
-            <element signature="e#633#634#0" expanded="true" />
-            <element signature="e#704#705#0" expanded="true" />
-            <element signature="e#1493#1494#0" expanded="true" />
-            <element signature="e#1553#1554#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SecondSem/Lesson_1/TooLongException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SecondSem/Lesson_1/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+          <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SecondSem/Lesson_1/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/SecondSem/Lesson_1/Checker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="11" selection-end-column="1" />
+        <state relative-caret-position="315">
+          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
         </state>
       </provider>
     </entry>
