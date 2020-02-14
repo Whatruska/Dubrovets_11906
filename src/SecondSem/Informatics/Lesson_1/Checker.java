@@ -1,4 +1,4 @@
-package SecondSem.Lesson_1;
+package SecondSem.Informatics.Lesson_1;
 
 public class Checker {
     public static void checkBigSum(long firstNum, long secondNunm) throws TooLongResultException {
