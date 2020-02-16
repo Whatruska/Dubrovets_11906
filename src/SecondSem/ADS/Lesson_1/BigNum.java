@@ -1,7 +1,7 @@
 package SecondSem.ADS.Lesson_1;
 
 public class BigNum {
-    private static final int MAX_LENGTH = 1000;
+    private static final int MAX_LENGTH = 100;
 
     private int[] number;
     private int length;
@@ -29,7 +29,7 @@ public class BigNum {
         this(
                 convertToInts(str),
                 str.length(),
-                str.charAt(0) == '-'
+                str.charAt(0) != '-'
         );
     }
 
@@ -147,7 +147,7 @@ public class BigNum {
     @Override
     public String toString() {
         String result = "";
-        if (isPositive){
+        if (!isPositive){
             result += '-';
         }
         for (int i = 0; i < length; i++){

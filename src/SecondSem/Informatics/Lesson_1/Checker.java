@@ -1,14 +1,16 @@
 package SecondSem.Informatics.Lesson_1;
 
 public class Checker {
-    public static void checkBigSum(long firstNum, long secondNunm) throws TooLongResultException {
-        if (Parser.getLength(firstNum + secondNunm) > 16) {
+    public static void checkBigSum(long firstNum, long secondNum) throws TooLongResultException {
+        long max = Long.MAX_VALUE;
+        if (max - firstNum < secondNum){
             throw new TooLongResultException();
         }
     }
 
     public static void checkBigMultiply(long firstNum, long secondNum) throws TooLongResultException {
-        if (Parser.getLength(firstNum) + Parser.getLength(secondNum) > 16) {
+        long max = Long.MAX_VALUE;
+        if (max / firstNum < secondNum){
             throw new TooLongResultException();
         }
     }
@@ -19,8 +21,9 @@ public class Checker {
         }
     }
 
-    public static void checkBigSub(long firstNum, long secondNunm) throws TooLongResultException {
-        if (Parser.getLength(firstNum - secondNunm) > 16) {
+    public static void checkBigSub(long firstNum, long secondNum) throws TooLongResultException {
+        long max = Long.MIN_VALUE;
+        if (max - firstNum > secondNum){
             throw new TooLongResultException();
         }
     }

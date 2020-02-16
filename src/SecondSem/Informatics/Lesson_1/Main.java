@@ -7,9 +7,9 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите выражение");
-        String string = scanner.nextLine();
+        String input = scanner.nextLine();
         try {
-            System.out.println(Calculator.calculate(string));
+            System.out.println(Calculator.calculate(input));
         } catch (TooLongResultException e) {
             System.out.println("Слишком большое число");
         } catch (ArithmeticException e){

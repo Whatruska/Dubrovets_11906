@@ -11,6 +11,8 @@ public class Parser {
     private Operation operation;
     private int index;
 
+    private static final int MAX_SIGNS = 16;
+
     public Parser(String string) throws InputMismatchException, WrongOperationException, TooLongArgumentException {
         this.string = string;
         checkFormat();
@@ -90,15 +92,22 @@ public class Parser {
     }
 
     private void checkFormat() throws InputMismatchException, TooLongArgumentException, WrongOperationException {
-        Matcher tooLongMatcher = Pattern.compile("[0-9]{16,}").matcher(string);
-        Matcher wrongOperation = Pattern.compile("[^\\+\\-\\*\\/0-9]").matcher(string);
-        if (tooLongMatcher.find()){
-            throw new TooLongArgumentException();
+        Matcher tooLongMatcher = Pattern.compile("[0-9]{" + (MAX_SIGNS + 1)  +",}").matcher(string);
+        Matcher wrongOperation = Pattern.compile("[^\\+\\-\\*\\/0-9\\s]").matcher(string);
+        if (tooLongMatcher.find()) {
+            String ill = tooLongMatcher.group();
+            String arg = "Второй";
+            if (string.indexOf(ill) == 0) {
+                arg = "Первый";
+            }
+            throw new TooLongArgumentException(arg + " аргумент слишком большой");
         }
         if (wrongOperation.find()){
-            throw new WrongOperationException();
+            String ill = wrongOperation.group();
+            int index = string.indexOf(ill);
+            throw new WrongOperationException(index);
         }
-        if (!string.matches("^\\s*\\-?[0-9]{0,15}\\s*[\\+\\-\\*\\/]\\s*[0-9]{0,15}\\s*$")) {
+        if (!string.matches("^\\s*\\-?[0-9]{1," + MAX_SIGNS  +"}\\s*[\\+\\-\\*\\/]\\s*[0-9]{1," + MAX_SIGNS  +"}\\s*$")) {
             throw new InputMismatchException();
         }
     }
