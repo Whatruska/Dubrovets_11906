@@ -22,8 +22,12 @@ public class Checker {
     }
 
     public static void checkBigSub(long firstNum, long secondNum) throws TooLongResultException {
-        long max = Long.MIN_VALUE;
-        if (max - firstNum > secondNum){
+        long min = Long.MIN_VALUE;
+        long comp = min + firstNum;
+        if (secondNum >= 0){
+            comp = min - firstNum;
+        }
+        if (comp > secondNum){
             throw new TooLongResultException();
         }
     }

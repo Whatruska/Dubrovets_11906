@@ -11,7 +11,11 @@ public class Calculator {
 
         switch (operation){
             case PLUS:{
-                Checker.checkBigSum(a,b);
+                if (a > 0){
+                    Checker.checkBigSum(a,b);
+                } else {
+                    Checker.checkBigSub(b,a);
+                }
                 return (a + b);
             }
 
