@@ -15,6 +15,10 @@ public class BigNum {
         return length;
     }
 
+    public void setLength(int length) {
+        this.length = length;
+    }
+
     public boolean isPositive() {
         return isPositive;
     }
@@ -23,6 +27,10 @@ public class BigNum {
         this.number = number;
         this.length = length;
         this.isPositive = isPositive;
+    }
+
+    public BigNum(){
+        this(new int[101], 0, true);
     }
 
     public BigNum(String str){
@@ -43,115 +51,90 @@ public class BigNum {
         return ints;
     }
 
-    public void sumInt(BigNum num){
-        int length2 = num.getLength();
-        if (this.length < length2){
-            num.sumInt(this);
-            this.number = num.getNumber();
-            this.length = num.getLength();
+    public void sum(BigNum bigNum){
+        int[] ints2 = bigNum.getNumber();
+        int maxInd = Math.max(length, bigNum.length);
+        for (int i = 0; i < maxInd; i++){
+            number[i] += ints2[i];
         }
-        int[] ints1 = this.number;
-        int[] ints2 = num.getNumber();
-        int ost = 0;
-        int[] res = new int[MAX_LENGTH];
-
-        int d = this.length - length2;
-        for (int i = 0; i < d; i++){
-            shiftRight(ints2, 0);
+        length = maxInd;
+        for (int i = 0; i < length; i++){
+            int elem = number[i];
+            number[i] = elem % 10;
+            number[i + 1] += elem / 10;
         }
-        for (int i = length - 1; i >= 0; i--){
-            int digit1 = ints1[i];
-            int digit2 = ints2[i];
-            int sum = digit1 + digit2 + ost;
-            int result = sum % 10;
-            res[i] = result;
-            if (i == length && result == 0){
-                length++;
-            }
-            ost = sum / 10;
-        }
-        if (ost > 0){
-            shiftRight(res, ost);
+        int el = number[length];
+        int l = getLength(el);
+        for (int i = 0; i < l; i++){
+            int index = length + i;
+            int elem = number[index];
+            number[index] = elem % 10;
+            number[index + 1] = elem / 10;
             length++;
         }
-        number = res;
     }
 
-    public void sumInt(String str){
-        sumInt(new BigNum(str));
+    public void sum(String str){
+        sum(new BigNum(str));
     }
 
-    private void shiftLeft(int[] ints){
-        for (int i = 1; i < ints.length; i++){
-            ints[i - 1] = ints[i];
-        }
-        ints[ints.length - 1] = 0;
-    }
-
-    public void subInt(BigNum num){
-        int[] result = new int[MAX_LENGTH];
-        int firstIndex = 0;
-        int[] ints2 = num.getNumber();
-        if (number[0] >= ints2[0]){
-            for (int i = number[0]; i >= 0; i--){
-                int digit1 = number[i];
-                int digit2 = ints2[i];
-                if (digit1 < digit2){
-                    digit1 += 10;
-                    number[i - 1]--;
+    public void sub(BigNum bigNum) {
+        int[] ints2 = bigNum.getNumber();
+        if (toString().compareTo(bigNum.toString()) >= 0){
+            for (int i = 0; i < length; i++) {
+                number[i] -= ints2[i];
+                if (number[i] < 0) {
+                    number[i + 1]--;
+                    number[i] += 10;
                 }
-                int sub = digit1 - digit2;
-                if (sub != 0){
-                    firstIndex = i;
-                }
-                result[i] = digit1 - digit2;
-            }
-            if (firstIndex > 0){
-                for (int i = 0; i < firstIndex; i++){
-                    shiftLeft(result);
-                }
-                length -= firstIndex;
             }
         } else {
-            num.subInt(this);
-            this.isPositive = !isPositive;
-            number = num.getNumber();
+            bigNum.sub(this);
+            isPositive = false;
+            number = bigNum.getNumber();
+            length = bigNum.getLength();
+            number[length - 1] = -number[length - 1];
         }
     }
 
-    //Not finished
-//    public static int[] multiplyInts(int[] ints1, int[] ints2){
-//        if (ints1[0] < ints2[0]){
-//            return multiplyInts(ints2, ints1);
-//        }
-//        int[] result = new int[101];
-//        for (int i = ints2[0], count = 0; i > 0; i--, count++){
-//            int elem = ints2[i];
-//            int[] s = new int[101];
-//            for (int j = 0; j < elem; j++){
-//                s = sumInts(s, ints1);
-//            }
-//            s[0] += count;
-//            result = sumInts(result, s);
-//        }
-//        return result;
-//    }
+    public void sub(String str){
+        sub(new BigNum(str));
+    }
 
-    private void shiftRight(int[] ints, int ost){
-        for (int i = ints.length - 1; i > 0; i--){
-            ints[i] = ints[i - 1];
+    public void multiplyToScalar(int a){
+        for (int i = 0; i < length; i++){
+            number[i] *= a;
         }
-        ints[1] = ost;
+        for (int i = 0; i < length; i++){
+            int elem = number[i];
+            number[i] = elem % 10;
+            number[i + 1] += elem / 10;
+        }
+        int el = number[length];
+        int l = getLength(el);
+        for (int i = 0; i < l; i++){
+            int index = length + i;
+            int elem = number[index];
+            number[index] = elem % 10;
+            number[index + 1] = elem / 10;
+            length++;
+        }
+    }
+
+    private int getLength(int a){
+        int count = 0;
+        while (a > 0){
+            a /= 10;
+            count++;
+        }
+        return count;
     }
 
     @Override
     public String toString() {
         String result = "";
-        if (!isPositive){
-            result += '-';
-        }
         for (int i = 0; i < length; i++){
-            result += number[i];
+            result += number[length - i - 1];
         }
         return result;
     }

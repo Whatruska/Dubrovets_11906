@@ -15,7 +15,9 @@ public class Main {
 
         list.deleteHead();
 
-        list.joint(list2);
+        list.printList();
+
+        list.deleteSubList(1,3);
 
         list.printList();
 

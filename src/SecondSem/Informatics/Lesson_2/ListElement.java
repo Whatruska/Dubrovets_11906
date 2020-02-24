@@ -2,7 +2,7 @@ package SecondSem.Informatics.Lesson_2;
 
 public class ListElement<T extends Number> {
     private T value;
-    private ListElement next;
+    private ListElement<T> next;
 
     public ListElement(T value) {
         this.value = value;

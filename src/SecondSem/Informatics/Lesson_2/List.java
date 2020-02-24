@@ -95,12 +95,8 @@ public class List<T extends Number> {
        this.head = nextHead;
     }
 
-    public void joint(List list){
-        ListElement<T> elem = list.getHead();
-        while (elem != null){
-            this.push(new ListElement<>(elem.getValue()));
-            elem = elem.getNext();
-        }
+    public void joint(List<T> list){
+        insertList(list, size() - 1);
     }
 
     public void printList(){
@@ -108,4 +104,38 @@ public class List<T extends Number> {
             System.out.println(get(i));
         }
     }
+
+    public void deleteSubList(int startInd, int finishInd){
+        int d = finishInd - startInd + 1;
+        ListElement<T> element = startInd > 0 ? get(startInd - 1) : head;
+        for (int i = 0; i < d; i++){
+            if (startInd == 0){
+                deleteHead();
+            } else {
+                deleteElement(element, element.getNext());
+            }
+        }
+    }
+
+    public void insertList(List<T> list, int pos){
+        ListElement<T> element = list.getHead();
+        int i = 0;
+        while (element != null){
+            add(element.getValue(), pos + i);
+            i++;
+            element = element.getNext();
+        }
+    }
+
+    public List<T> findAllValues(T value){
+        ListElement<T> element = head;
+        List<T> result = new List<>(element.getValue());
+        while (element != null){
+            if (element.getValue().equals(value)){
+                result.push(value);
+            }
+        }
+        return result;
+    }
+
 }

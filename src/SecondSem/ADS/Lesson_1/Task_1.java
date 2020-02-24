@@ -8,7 +8,7 @@ public class Task_1 {
         String str = scanner.nextLine();
         String str2 = scanner.nextLine();
         BigNum num = new BigNum(str);
-        num.sumInt(str2);
+        num.sub(str2);
         System.out.println(num);
     }
 }
