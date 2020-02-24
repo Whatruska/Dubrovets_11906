@@ -96,7 +96,7 @@ public class List<T extends Number> {
     }
 
     public void joint(List<T> list){
-        insertList(list, size() - 1);
+        get(size() - 1).setNext(list.getHead());
     }
 
     public void printList(){
@@ -106,25 +106,28 @@ public class List<T extends Number> {
     }
 
     public void deleteSubList(int startInd, int finishInd){
-        int d = finishInd - startInd + 1;
-        ListElement<T> element = startInd > 0 ? get(startInd - 1) : head;
-        for (int i = 0; i < d; i++){
-            if (startInd == 0){
-                deleteHead();
-            } else {
-                deleteElement(element, element.getNext());
-            }
-        }
+        ListElement<T> element = get(startInd);
+        ListElement<T> prev = get(finishInd - 1);
+        ListElement<T> next = prev.getNext();
+        prev.setNext(null);
+        element.setNext(next);
+
+//        int d = finishInd - startInd + 1;
+//        ListElement<T> element = startInd > 0 ? get(startInd - 1) : head;
+//        for (int i = 0; i < d; i++){
+//            if (startInd == 0){
+//                deleteHead();
+//            } else {
+//                deleteElement(element, element.getNext());
+//            }
+//        }
     }
 
     public void insertList(List<T> list, int pos){
-        ListElement<T> element = list.getHead();
-        int i = 0;
-        while (element != null){
-            add(element.getValue(), pos + i);
-            i++;
-            element = element.getNext();
-        }
+        ListElement<T> element = get(pos);
+        ListElement<T> next = element.getNext();
+        element.setNext(list.getHead());
+        list.get(list.size() - 1).setNext(next);
     }
 
     public List<T> findAllValues(T value){
@@ -134,6 +137,7 @@ public class List<T extends Number> {
             if (element.getValue().equals(value)){
                 result.push(value);
             }
+            element = element.getNext();
         }
         return result;
     }

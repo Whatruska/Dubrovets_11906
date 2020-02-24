@@ -13,11 +13,11 @@ public class ListElement<T extends Number> {
         return value;
     }
 
-    public ListElement getNext() {
+    public ListElement<T> getNext() {
         return next;
     }
 
-    public void setNext(ListElement next) {
+    public void setNext(ListElement<T> next) {
         this.next = next;
     }
 

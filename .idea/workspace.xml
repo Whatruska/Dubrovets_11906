@@ -2,26 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ae29f03-7a4d-4b58-af30-606242732d3a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/SecondSem/Tutor/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SecondSem/Tutor/AnimalList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SecondSem/Tutor/AnimalListElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SecondSem/Tutor/Chicken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SecondSem/Tutor/Cow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SecondSem/Tutor/Horse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SecondSem/Tutor/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SecondSem/Tutor/RandomFiller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/SecondSem/ADS/Lesson_1/BigNum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KPFU_INFO/SecondSem/ADS/Lesson_1/BigNum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/SecondSem/ADS/Lesson_1/Task_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KPFU_INFO/SecondSem/ADS/Lesson_1/Task_1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/SecondSem/Informatics/Lesson_2/List.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KPFU_INFO/SecondSem/Informatics/Lesson_2/List.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/SecondSem/Informatics/Lesson_2/ListElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KPFU_INFO/SecondSem/Informatics/Lesson_2/ListElement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/SecondSem/Informatics/Lesson_2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KPFU_INFO/SecondSem/Informatics/Lesson_2/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SecondSem/ADS/Lesson_1/BigNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SecondSem/ADS/Lesson_1/BigNum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SecondSem/ADS/Lesson_1/Task_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SecondSem/ADS/Lesson_1/Task_1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SecondSem/Informatics/Lesson_2/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SecondSem/Informatics/Lesson_2/List.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SecondSem/Informatics/Lesson_2/ListElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SecondSem/Informatics/Lesson_2/ListElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SecondSem/Informatics/Lesson_2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SecondSem/Informatics/Lesson_2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SecondSem/Tutor/IntegerArrayCollection.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,57 +17,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/SecondSem/Tutor/AnimalList.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SecondSem/Tutor/Animal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="10" selection-end-column="1" />
               <folding>
-                <element signature="e#151#152#0" expanded="true" />
-                <element signature="e#183#184#0" expanded="true" />
-                <element signature="e#242#243#0" expanded="true" />
-                <element signature="e#283#284#0" expanded="true" />
-                <element signature="e#310#311#0" expanded="true" />
-                <element signature="e#785#786#0" expanded="true" />
-                <element signature="e#838#839#0" expanded="true" />
+                <element signature="e#153#154#0" expanded="true" />
+                <element signature="e#190#191#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SecondSem/Informatics/Lesson_2/List.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1350">
+              <caret line="110" column="30" selection-start-line="110" selection-start-column="30" selection-end-line="110" selection-end-column="30" />
+              <folding>
+                <element signature="e#149#150#0" expanded="true" />
+                <element signature="e#181#182#0" expanded="true" />
+                <element signature="e#1325#1326#0" expanded="true" />
+                <element signature="e#1365#1366#0" expanded="true" />
+                <element signature="e#2361#2362#0" expanded="true" />
+                <element signature="e#2405#2406#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SecondSem/Tutor/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/SecondSem/Informatics/Lesson_2/ListElement.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="22" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="22" />
-              <folding>
-                <element signature="e#89#90#0" expanded="true" />
-                <element signature="e#149#150#0" expanded="true" />
-              </folding>
+              <caret line="4" column="23" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SecondSem/Tutor/RandomFiller.java">
+        <entry file="file://$PROJECT_DIR$/src/SecondSem/Informatics/Lesson_2/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SecondSem/Tutor/AnimalListElement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-              <folding>
-                <element signature="e#303#304#0" expanded="true" />
-                <element signature="e#337#338#0" expanded="true" />
-                <element signature="e#677#678#0" expanded="true" />
-                <element signature="e#716#717#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="323">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -143,8 +118,6 @@
         <option value="$PROJECT_DIR$/src/SecondSem/Informatics/Lesson_1/Parser.java" />
         <option value="$PROJECT_DIR$/src/SecondSem/Informatics/Lesson_1/Checker.java" />
         <option value="$PROJECT_DIR$/src/SecondSem/Informatics/Lesson_1/Calculator.java" />
-        <option value="$PROJECT_DIR$/src/SecondSem/Informatics/Lesson_2/ListElement.java" />
-        <option value="$PROJECT_DIR$/src/SecondSem/Informatics/Lesson_2/List.java" />
         <option value="$PROJECT_DIR$/src/SecondSem/Informatics/Lesson_2/Main.java" />
         <option value="$PROJECT_DIR$/src/SecondSem/ADS/Lesson_1/Task_1.java" />
         <option value="$PROJECT_DIR$/src/SecondSem/ADS/Lesson_1/BigNum.java" />
@@ -159,6 +132,8 @@
         <option value="$PROJECT_DIR$/src/SecondSem/Tutor/Main.java" />
         <option value="$PROJECT_DIR$/src/SecondSem/Tutor/AnimalListElement.java" />
         <option value="$PROJECT_DIR$/src/SecondSem/Tutor/AnimalList.java" />
+        <option value="$PROJECT_DIR$/src/SecondSem/Informatics/Lesson_2/ListElement.java" />
+        <option value="$PROJECT_DIR$/src/SecondSem/Informatics/Lesson_2/List.java" />
       </list>
     </option>
   </component>
@@ -192,6 +167,13 @@
               <item name="Dubrovets_11906" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="SecondSem" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dubrovets_11906" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dubrovets_11906" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="SecondSem" type="462c0819:PsiDirectoryNode" />
+              <item name="ADS" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Dubrovets_11906" type="b2602c69:ProjectViewProjectNode" />
@@ -311,7 +293,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (3)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SecondSem.Tutor.Main" />
       <module name="KPFU_INFO" />
@@ -379,9 +361,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Task_1" />
-        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main2" />
       </list>
@@ -511,7 +493,7 @@
       <workItem from="1582098990880" duration="1323000" />
       <workItem from="1582177278065" duration="5558000" />
       <workItem from="1582222695263" duration="1400000" />
-      <workItem from="1582559053293" duration="3022000" />
+      <workItem from="1582559053293" duration="8195000" />
     </task>
     <task id="LOCAL-00001" summary="First homework complete">
       <created>1568803577014</created>
@@ -524,13 +506,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="267688000" />
+    <option name="totallyTimeSpent" value="272861000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1405" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" id="Project" order="0" visible="true" weight="0.37102735" />
+      <window_info id="Project" order="0" visible="true" weight="0.37102735" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -539,8 +521,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3299363" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32898173" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3994778" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32898173" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3994778" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -906,24 +888,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SecondSem/Tutor/Collect.java" />
-    <entry file="file://$PROJECT_DIR$/src/SecondSem/Informatics/Lesson_2/ListElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="25" column="34" lean-forward="true" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SecondSem/Tutor/Animal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-          <folding>
-            <element signature="e#153#154#0" expanded="true" />
-            <element signature="e#192#193#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SecondSem/Tutor/Cow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -935,24 +899,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SecondSem/Informatics/Lesson_2/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SecondSem/Informatics/Lesson_2/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1632">
-          <caret line="108" selection-start-line="108" selection-end-line="108" />
-          <folding>
-            <element signature="e#149#150#0" expanded="true" />
-            <element signature="e#181#182#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -969,10 +915,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SecondSem/Tutor/RandomFiller.java">
+    <entry file="file://$PROJECT_DIR$/src/SecondSem/Tutor/AnimalList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        <state relative-caret-position="153">
+          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <element signature="e#151#152#0" expanded="true" />
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#785#786#0" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -984,6 +939,13 @@
             <element signature="e#89#90#0" expanded="true" />
             <element signature="e#149#150#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SecondSem/Tutor/RandomFiller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -1000,18 +962,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SecondSem/Tutor/AnimalList.java">
+    <entry file="file://$PROJECT_DIR$/src/SecondSem/Informatics/Lesson_2/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SecondSem/Tutor/Animal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="10" selection-end-column="1" />
           <folding>
-            <element signature="e#151#152#0" expanded="true" />
-            <element signature="e#183#184#0" expanded="true" />
-            <element signature="e#242#243#0" expanded="true" />
-            <element signature="e#283#284#0" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
-            <element signature="e#785#786#0" expanded="true" />
-            <element signature="e#838#839#0" expanded="true" />
+            <element signature="e#153#154#0" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SecondSem/Informatics/Lesson_2/ListElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SecondSem/Informatics/Lesson_2/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="110" column="30" selection-start-line="110" selection-start-column="30" selection-end-line="110" selection-end-column="30" />
+          <folding>
+            <element signature="e#149#150#0" expanded="true" />
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#1325#1326#0" expanded="true" />
+            <element signature="e#1365#1366#0" expanded="true" />
+            <element signature="e#2361#2362#0" expanded="true" />
+            <element signature="e#2405#2406#0" expanded="true" />
           </folding>
         </state>
       </provider>
