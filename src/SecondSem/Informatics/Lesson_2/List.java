@@ -139,6 +139,7 @@ public class List<T extends Number> {
             }
             element = element.getNext();
         }
+        result.deleteHead();
         return result;
     }
 

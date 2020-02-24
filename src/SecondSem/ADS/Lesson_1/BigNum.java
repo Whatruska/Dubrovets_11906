@@ -121,6 +121,25 @@ public class BigNum {
         }
     }
 
+    private void multiplyToFactor(int a, int b){
+        for (int i = length - 1; i > 0; i--){
+            number[i + b] = number[i];
+        }
+        length += b;
+        multiplyToScalar(a);
+    }
+
+    private void multiply(BigNum num){
+        BigNum r = new BigNum();
+        r.sum(this);
+        for (int i = 0; i < length; i++){
+            BigNum n = new BigNum();
+            n.sum(r);
+            n.multiplyToFactor(number[i],i);
+            sum(n);
+        }
+    }
+
     private int getLength(int a){
         int count = 0;
         while (a > 0){
