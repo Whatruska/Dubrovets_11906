@@ -1,6 +1,6 @@
 package SecondSem.Informatics.Lesson_2;
 
-public class List<T extends Number> {
+public class List<T> {
    private ListElement<T> head;
 
     public List(ListElement<T> head) {
@@ -62,31 +62,17 @@ public class List<T extends Number> {
         push(new ListElement<>(value));
     }
 
-    private void deleteNextElem(ListElement<T> element){
-        ListElement<T> prev = head;
-        ListElement<T> curr = head.getNext();
-        while (!(curr.getValue().equals(element.getValue()))){
-            prev = prev.getNext();
-            curr = curr.getNext();
-        }
-        prev = prev.getNext();
-        curr = curr.getNext();
-        if (curr != null){
-            deleteElement(prev, curr);
-        }
-    }
-
     public void deleteNextElem(int index){
         if (index == -1){
             deleteHead();
         } else {
-            deleteNextElem(get(index));
-        }
-    }
+            ListElement<T> element = get(index);
+            ListElement<T> del = element.getNext();
+            ListElement<T> next = del.getNext();
 
-    private void deleteElement(ListElement prev, ListElement curr){
-        prev.setNext(curr.getNext());
-        curr.setNext(null);
+            del.setNext(null);
+            element.setNext(next);
+        }
     }
 
     public void deleteHead(){
@@ -138,6 +124,22 @@ public class List<T extends Number> {
                 result.push(value);
             }
             element = element.getNext();
+        }
+        result.deleteHead();
+        return result;
+    }
+
+    public List<Integer> findAllIndexesOfValues(T value){
+        List<Integer> result = new List<>(-1);
+        ListElement<T> elem = head;
+        int count = 0;
+        while (elem != null){
+            T val = elem.getValue();
+            if (val.equals(value)){
+                result.push(count);
+            }
+            count++;
+            elem = elem.getNext();
         }
         result.deleteHead();
         return result;

@@ -1,6 +1,6 @@
 package SecondSem.Informatics.Lesson_2;
 
-public class ListElement<T extends Number> {
+public class ListElement<T> {
     private T value;
     private ListElement<T> next;
 
@@ -11,6 +11,10 @@ public class ListElement<T extends Number> {
 
     public T getValue() {
         return value;
+    }
+
+    public void setValue(T value) {
+        this.value = value;
     }
 
     public ListElement<T> getNext() {
