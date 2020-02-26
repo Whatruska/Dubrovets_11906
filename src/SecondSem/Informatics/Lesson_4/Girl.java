@@ -9,4 +9,9 @@ public class Girl extends Student {
     public void doExcercise() {
         setExcercises(getExcercises() + 20);
     }
+
+    @Override
+    public String toString() {
+        return "Girl \n" + super.toString();
+    }
 }

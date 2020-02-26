@@ -35,7 +35,7 @@ public class StudentList<T extends Student> extends List<T> {
     public boolean checkSuperStudent(){
         ListElement<T> stud = getHead();
         while (stud != null){
-            if (stud.getValue().getExcercises() < 0){
+            if (stud.getValue().getExcercises() < 100){
                 return false;
             }
             stud = stud.getNext();

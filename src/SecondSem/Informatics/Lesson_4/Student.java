@@ -22,4 +22,9 @@ abstract public class Student {
     }
 
     abstract public void doExcercise();
+
+    @Override
+    public String toString() {
+        return "Height : " + getHeight() + "\nExcercises : " + getExcercises();
+    }
 }

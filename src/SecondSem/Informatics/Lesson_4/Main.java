@@ -1,6 +1,5 @@
 package SecondSem.Informatics.Lesson_4;
 
-import SecondSem.Informatics.Lesson_2.List;
 import SecondSem.Informatics.Lesson_2.ListElement;
 
 import java.util.InputMismatchException;
@@ -56,7 +55,7 @@ public class Main {
             int height1 = link1.getValue().getHeight();
             int height2 = link2.getValue().getHeight();
 
-            if (height1 <= height2){
+            if (height1 >= height2){
                 result.push(link1.getValue());
                 link1 = link1.getNext();
             } else {
@@ -98,7 +97,7 @@ public class Main {
             }
 
             case CHECK_SUPER_CMD : {
-                return list.checkSuperStudent();
+                return !list.checkSuperStudent();
             }
 
             case HELP_CMD : {
