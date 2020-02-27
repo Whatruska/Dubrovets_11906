@@ -3,6 +3,8 @@ package SecondSem.Informatics.Lesson_2;
 public class List<T> {
    private ListElement<T> head;
 
+    public List() {}
+
     public List(ListElement<T> head) {
         this.head = head;
     }
@@ -45,9 +47,13 @@ public class List<T> {
     }
 
     public void add(ListElement<T> elem, int index){
-        ListElement<T> element = get(index);
-        elem.setNext(element.getNext());
-        element.setNext(elem);
+        if (index == -1){
+            head = elem;
+        } else {
+            ListElement<T> element = get(index);
+            elem.setNext(element.getNext());
+            element.setNext(elem);
+        }
     }
 
     public void add(T value, int index){
