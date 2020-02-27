@@ -65,13 +65,15 @@ public class List<T> {
     public void deleteNextElem(int index){
         if (index == -1){
             deleteHead();
-        } else {
+        } else if (index < size() - 1){
             ListElement<T> element = get(index);
             ListElement<T> del = element.getNext();
             ListElement<T> next = del.getNext();
 
             del.setNext(null);
             element.setNext(next);
+        } else {
+            get(index - 1).setNext(null);
         }
     }
 

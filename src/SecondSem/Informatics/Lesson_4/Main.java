@@ -20,14 +20,14 @@ public class Main {
         StudentList<Student> boyList = inputAndFormList(BOY_CLASS);
         StudentList<Student> sortedList = mergeLists(boyList, girlList);
         String empty = scanner.nextLine();
-        String cmd = scanner.nextLine();
+        String cmd = scanner.nextLine().trim();
         while (executeCommand(cmd, sortedList)){
             cmd = scanner.nextLine();
         }
     }
 
     public static StudentList<Student> inputAndFormList(String c) throws IllegalArgumentException{
-        StudentList<Student> result = new StudentList<Student>(new Boy(32));
+        StudentList<Student> result = new StudentList<>(new Boy(32));
         System.out.println("Введите рост " + (c.equals(BOY_CLASS) ? "мальчиков" : "девочек"));
         int heigth = scanner.nextInt();
         while (heigth != -1){
