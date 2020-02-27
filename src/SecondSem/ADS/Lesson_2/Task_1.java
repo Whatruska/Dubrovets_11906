@@ -16,38 +16,54 @@ public class Task_1 {
         }
         int[] res = new int[0];
         for (int i = 0; i < matrix.length; i++){
-            res = merge(res, matrix[i]);
+            res = merge(matrix);
         }
 
         for (int i = 0; i < res.length; i++){
             System.out.print(res[i] + " ");
         }
     }
-    public static int[] merge(int[] arr1, int[] arr2){
-        int[] res = new int[arr1.length + arr2.length];
-        int i = 0;
-        int j = 0;
+
+    //M = O(k)
+    //T = O(N)
+    public static int[] merge(int[][] matrix){
+        int[] res = new int[getElemCount(matrix)];
+        int[] indexes = new int[matrix.length];
+        int minLink = getMinLinkIndex(matrix, indexes);
         int k = 0;
-        while (i < arr1.length && j < arr2.length){
-            if (arr1[i] < arr2[j]){
-                res[k] = arr1[i];
-                i++;
-            } else {
-                res[k] = arr2[j];
-                j++;
-            }
-            k++;
-        }
-        while (i < arr1.length){
-            res[k] = arr1[i];
-            i++;
-            k++;
-        }
-        while (j < arr2.length){
-            res[k] = arr2[j];
-            j++;
+        while (minLink != -1){
+            res[k] = matrix[minLink][indexes[minLink]];
+            indexes[minLink]++;
+            minLink = getMinLinkIndex(matrix,indexes);
             k++;
         }
         return res;
+    }
+
+    //T = O(k)
+    //M = O(1)
+    public static int getElemCount(int[][] matrix){
+        int count = 0;
+        for (int i = 0; i < matrix.length; i++){
+            count += matrix[i].length;
+        }
+        return count;
+    }
+
+    //T = O(k)
+    //M = O(1)
+    public static int getMinLinkIndex(int[][] matrix, int[] indexes){
+        int min = Integer.MAX_VALUE;
+        int minInd = -1;
+        for (int i = 0; i < indexes.length; i++){
+            if (indexes[i] < matrix[i].length) {
+                int value = matrix[i][indexes[i]];
+                if (value < min && indexes[i] < matrix[i].length) {
+                    min = value;
+                    minInd = i;
+                }
+            }
+        }
+        return minInd;
     }
 }
