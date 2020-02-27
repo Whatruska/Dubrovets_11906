@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ae29f03-7a4d-4b58-af30-606242732d3a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/SecondSem/ADS/Lesson_1/Task_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecondSem/ADS/Lesson_2/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/SecondSem/ADS/Lesson_1/Task_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/SecondSem/ADS/Lesson_2/Task_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KPFU_INFO/SecondSem/ADS/Lesson_2/Task_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SecondSem/ADS/Lesson_1/Task_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SecondSem/ADS/Lesson_2/Task_2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SecondSem/ADS/Lesson_2/Task_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SecondSem/ADS/Lesson_2/Task_1.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,20 +21,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SecondSem/ADS/Lesson_2/Task_1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="29" column="30" lean-forward="true" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+            <state relative-caret-position="1241">
+              <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SecondSem/ADS/Lesson_1/Task_2.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SecondSem/ADS/Lesson_2/input.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+            <state relative-caret-position="102">
+              <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -54,8 +60,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/SecondSem/Lesson_1/FirstTask.java" />
-        <option value="$PROJECT_DIR$/src/SecondSem/Lesson_1/Operation.java" />
         <option value="$PROJECT_DIR$/src/SecondSem/Lesson_1/Checker.java" />
         <option value="$PROJECT_DIR$/src/SecondSem/Lesson_1/TooLongException.java" />
         <option value="$PROJECT_DIR$/src/SecondSem/Lesson_1/TooLongArgumentException.java" />
@@ -104,7 +108,9 @@
         <option value="$PROJECT_DIR$/src/SecondSem/Informatics/Lesson_4/Main.java" />
         <option value="$PROJECT_DIR$/src/SecondSem/Informatics/Lesson_2/List.java" />
         <option value="$PROJECT_DIR$/src/SecondSem/ADS/Lesson_1/Task_2.java" />
+        <option value="$PROJECT_DIR$/src/SecondSem/ADS/Lesson_2/Task_2.java" />
         <option value="$PROJECT_DIR$/src/SecondSem/ADS/Lesson_2/Task_1.java" />
+        <option value="$PROJECT_DIR$/src/SecondSem/ADS/Lesson_2/input.txt" />
       </list>
     </option>
   </component>
@@ -187,14 +193,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="SecondSem" type="462c0819:PsiDirectoryNode" />
               <item name="ADS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Dubrovets_11906" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Dubrovets_11906" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="SecondSem" type="462c0819:PsiDirectoryNode" />
-              <item name="ADS" type="462c0819:PsiDirectoryNode" />
-              <item name="Lesson_1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Dubrovets_11906" type="b2602c69:ProjectViewProjectNode" />
@@ -336,7 +334,7 @@
       <module name="KPFU_INFO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SecondSem.ADS.Lesson_1.*" />
+          <option name="PATTERN" value="SecondSem.ADS.Lesson_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -486,7 +484,7 @@
       <workItem from="1582782068399" duration="430000" />
       <workItem from="1582784853773" duration="1972000" />
       <workItem from="1582786987699" duration="25000" />
-      <workItem from="1582787636065" duration="2476000" />
+      <workItem from="1582787636065" duration="4006000" />
     </task>
     <task id="LOCAL-00001" summary="First homework complete">
       <created>1568803577014</created>
@@ -499,10 +497,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="293841000" />
+    <option name="totallyTimeSpent" value="295371000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1405" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" order="0" visible="true" weight="0.42793792" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -513,8 +512,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3299363" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32898173" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3994778" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32898173" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3994778" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -660,12 +659,6 @@
           <properties />
           <option name="timeStamp" value="98" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/SecondSem/ADS/Lesson_2/Task_1.java</url>
-          <line>35</line>
-          <properties />
-          <option name="timeStamp" value="100" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/FirstSem/Lesson_6/FourthTask.java</url>
           <line>5</line>
@@ -678,7 +671,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/FirstSem/Tutor/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/FirstSem/Tutor/AbrStud.java" />
     <entry file="file://$PROJECT_DIR$/src/FirstSem/ShapeCompare/Point.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -997,17 +989,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SecondSem/ADS/Lesson_1/Task_2.java">
+    <entry file="file://$PROJECT_DIR$/src/SecondSem/ADS/Lesson_2/Task_2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SecondSem/ADS/Lesson_2/Task_1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="29" column="30" lean-forward="true" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+        <state relative-caret-position="1241">
+          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SecondSem/ADS/Lesson_2/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
         </state>
       </provider>
     </entry>

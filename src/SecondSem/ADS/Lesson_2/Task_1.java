@@ -1,10 +1,15 @@
 package SecondSem.ADS.Lesson_2;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.net.URI;
+import java.net.URISyntaxException;
+import java.nio.file.Paths;
 import java.util.Scanner;
 
 public class Task_1 {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+    public static void main(String[] args) throws FileNotFoundException, URISyntaxException {
+        Scanner scanner = new Scanner(new File(getPathTo("input.txt")));
         int k = scanner.nextInt();
         int[][] matrix = new int[k][];
         for (int i = 0; i < k; i++){
@@ -58,12 +63,16 @@ public class Task_1 {
         for (int i = 0; i < indexes.length; i++){
             if (indexes[i] < matrix[i].length) {
                 int value = matrix[i][indexes[i]];
-                if (value < min && indexes[i] < matrix[i].length) {
+                if (value < min) {
                     min = value;
                     minInd = i;
                 }
             }
         }
         return minInd;
+    }
+
+    private static URI getPathTo(String str) throws URISyntaxException {
+        return Paths.get(Task_1.class.getResource(str).toURI()).toUri();
     }
 }
