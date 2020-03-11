@@ -1,17 +1,17 @@
 package SecondSem.ADS.Lesson_3.List;
 
-public class ListSet<K, V> {
+public class ListSet<K> {
 
-    private ListMap<K, V> set;
+    private ListMap<K, Object> set = new ListMap<>();
 
     public void add(K key){
         if (!contains(key)){
-            set.put(key, (V) new Object());
+            set.put(key, new Object());
         }
     }
 
     public void remove(K key){
-        ListMapItem<K, V> item = set.find(key);
+        ListMapItem<K, Object> item = set.find(key);
         set.put(item.getKey(), null);
     }
 

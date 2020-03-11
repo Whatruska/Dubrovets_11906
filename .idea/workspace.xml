@@ -2,21 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ae29f03-7a4d-4b58-af30-606242732d3a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/SecondSem/ADS/Lesson_3/Array/ArrayMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SecondSem/ADS/Lesson_3/Array/ArraySet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SecondSem/ADS/Lesson_3/List/ListMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SecondSem/ADS/Lesson_3/List/ListMapItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SecondSem/ADS/Lesson_3/List/ListSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tutor/HashSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tutor/MyStringSplitter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tutor/Segment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tutor/SegmentList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tutor/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecondSem/ADS/Lesson_3/Hash/HashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecondSem/ADS/Lesson_3/Hash/HashSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecondSem/ADS/Lesson_3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecondSem/ADS/Lesson_3/Tree/TreeElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecondSem/ADS/Lesson_3/Tree/TreeList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecondSem/ADS/Lesson_3/Tree/TreeMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecondSem/ADS/Lesson_3/Tree/TreeMapItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecondSem/ADS/Lesson_3/Tree/TreeSet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/META-INF/KPFU_INFO.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Tutor/Main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Tutor/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KPFU_INFO/Tutor/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tutor/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tutor/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Tutor/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Tutor/AnimalList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Tutor/AnimalListElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Tutor/Chicken.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Tutor/Cow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Tutor/Horse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Tutor/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Tutor/MyStringSplitter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Tutor/RandomFiller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Tutor/Segment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Tutor/SegmentList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Tutor/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SecondSem/ADS/Lesson_3/Array/ArrayMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SecondSem/ADS/Lesson_3/Array/ArrayMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SecondSem/ADS/Lesson_3/List/ListMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SecondSem/ADS/Lesson_3/List/ListMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SecondSem/ADS/Lesson_3/List/ListMapItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SecondSem/ADS/Lesson_3/List/ListMapItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SecondSem/ADS/Lesson_3/List/ListSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SecondSem/ADS/Lesson_3/List/ListSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tutor/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tutor/AnimalList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tutor/AnimalListElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tutor/Chicken.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tutor/Cow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tutor/HashSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tutor/Horse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tutor/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tutor/MyStringSplitter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tutor/RandomFiller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tutor/Segment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tutor/SegmentList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tutor/input.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,11 +62,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1405" />
-    <option name="height" value="877" />
-  </component>
   <component name="ProjectId" id="1YoMqWi8kEBXHsTJdK18fB6YVYS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -57,6 +75,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -82,11 +101,17 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="SecondSem.Tutor" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Tutor" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Tutor" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Main (3)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SecondSem.Informatics.Lesson_4.Main" />
       <module name="KPFU_INFO" />
@@ -113,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SecondSem.Informatics.Lesson_3.Main" />
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SecondSem.ADS.Lesson_3.Main" />
       <module name="KPFU_INFO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SecondSem.Informatics.Lesson_3.*" />
+          <option name="PATTERN" value="SecondSem.ADS.Lesson_3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,11 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Task_2" />
         <item itemvalue="Application.Task_1 (1)" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -321,7 +346,14 @@
       <workItem from="1583439158037" duration="615000" />
       <workItem from="1583604692514" duration="426000" />
       <workItem from="1583781268170" duration="519000" />
-      <workItem from="1583824598421" duration="3705000" />
+      <workItem from="1583824598421" duration="4482000" />
+      <workItem from="1583854421601" duration="3328000" />
+      <workItem from="1583858100912" duration="163000" />
+      <workItem from="1583858539961" duration="632000" />
+      <workItem from="1583861045033" duration="522000" />
+      <workItem from="1583861990877" duration="240000" />
+      <workItem from="1583906347473" duration="9517000" />
+      <workItem from="1583944033268" duration="4532000" />
     </task>
     <task id="LOCAL-00001" summary="First homework complete">
       <created>1568803577014</created>
@@ -341,24 +373,69 @@
     <option name="LAST_COMMIT_MESSAGE" value="First homework complete" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="518" y="178" key="#com.intellij.ide.util.MemberChooser" timestamp="1583834178802">
-      <screen x="0" y="23" width="1410" height="877" />
+    <state x="170" y="122" width="1071" height="689" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583922865646">
+      <screen x="0" y="23" width="1411" height="877" />
     </state>
-    <state x="518" y="178" key="#com.intellij.ide.util.MemberChooser/0.23.1410.877@0.23.1410.877" timestamp="1583834178802" />
-    <state x="518" y="178" key="#com.intellij.ide.util.MemberChooser/0.23.1411.877@0.23.1411.877" timestamp="1583781573872" />
+    <state x="170" y="122" width="1071" height="689" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1411.877@0.23.1411.877" timestamp="1583922865646" />
+    <state x="519" y="178" key="#com.intellij.ide.util.MemberChooser" timestamp="1583944804721">
+      <screen x="0" y="23" width="1413" height="877" />
+    </state>
+    <state x="518" y="178" key="#com.intellij.ide.util.MemberChooser/0.23.1410.877@0.23.1410.877" timestamp="1583908371486" />
+    <state x="518" y="178" key="#com.intellij.ide.util.MemberChooser/0.23.1411.877@0.23.1411.877" timestamp="1583915855957" />
+    <state x="519" y="178" key="#com.intellij.ide.util.MemberChooser/0.23.1413.877@0.23.1413.877" timestamp="1583944804721" />
     <state x="422" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1583832385393">
       <screen x="0" y="23" width="1410" height="877" />
     </state>
     <state x="422" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1410.877@0.23.1410.877" timestamp="1583832385393" />
+    <state width="1349" height="269" key="GridCell.Tab.0.bottom" timestamp="1583949074002">
+      <screen x="0" y="23" width="1413" height="877" />
+    </state>
+    <state width="1349" height="269" key="GridCell.Tab.0.bottom/0.23.1411.877@0.23.1411.877" timestamp="1583860999584" />
+    <state width="1349" height="269" key="GridCell.Tab.0.bottom/0.23.1413.877@0.23.1413.877" timestamp="1583949074002" />
+    <state width="1349" height="269" key="GridCell.Tab.0.center" timestamp="1583949074001">
+      <screen x="0" y="23" width="1413" height="877" />
+    </state>
+    <state width="1349" height="269" key="GridCell.Tab.0.center/0.23.1411.877@0.23.1411.877" timestamp="1583860999583" />
+    <state width="1349" height="269" key="GridCell.Tab.0.center/0.23.1413.877@0.23.1413.877" timestamp="1583949074001" />
+    <state width="1349" height="269" key="GridCell.Tab.0.left" timestamp="1583949074001">
+      <screen x="0" y="23" width="1413" height="877" />
+    </state>
+    <state width="1349" height="269" key="GridCell.Tab.0.left/0.23.1411.877@0.23.1411.877" timestamp="1583860999582" />
+    <state width="1349" height="269" key="GridCell.Tab.0.left/0.23.1413.877@0.23.1413.877" timestamp="1583949074001" />
+    <state width="1349" height="269" key="GridCell.Tab.0.right" timestamp="1583949074002">
+      <screen x="0" y="23" width="1413" height="877" />
+    </state>
+    <state width="1349" height="269" key="GridCell.Tab.0.right/0.23.1411.877@0.23.1411.877" timestamp="1583860999584" />
+    <state width="1349" height="269" key="GridCell.Tab.0.right/0.23.1413.877@0.23.1413.877" timestamp="1583949074002" />
+    <state width="1349" height="269" key="GridCell.Tab.1.bottom" timestamp="1583949074004">
+      <screen x="0" y="23" width="1413" height="877" />
+    </state>
+    <state width="1349" height="269" key="GridCell.Tab.1.bottom/0.23.1411.877@0.23.1411.877" timestamp="1583860999587" />
+    <state width="1349" height="269" key="GridCell.Tab.1.bottom/0.23.1413.877@0.23.1413.877" timestamp="1583949074004" />
+    <state width="1349" height="269" key="GridCell.Tab.1.center" timestamp="1583949074003">
+      <screen x="0" y="23" width="1413" height="877" />
+    </state>
+    <state width="1349" height="269" key="GridCell.Tab.1.center/0.23.1411.877@0.23.1411.877" timestamp="1583860999586" />
+    <state width="1349" height="269" key="GridCell.Tab.1.center/0.23.1413.877@0.23.1413.877" timestamp="1583949074003" />
+    <state width="1349" height="269" key="GridCell.Tab.1.left" timestamp="1583949074002">
+      <screen x="0" y="23" width="1413" height="877" />
+    </state>
+    <state width="1349" height="269" key="GridCell.Tab.1.left/0.23.1411.877@0.23.1411.877" timestamp="1583860999585" />
+    <state width="1349" height="269" key="GridCell.Tab.1.left/0.23.1413.877@0.23.1413.877" timestamp="1583949074002" />
+    <state width="1349" height="269" key="GridCell.Tab.1.right" timestamp="1583949074003">
+      <screen x="0" y="23" width="1413" height="877" />
+    </state>
+    <state width="1349" height="269" key="GridCell.Tab.1.right/0.23.1411.877@0.23.1411.877" timestamp="1583860999587" />
+    <state width="1349" height="269" key="GridCell.Tab.1.right/0.23.1413.877@0.23.1413.877" timestamp="1583949074003" />
     <state x="214" y="100" key="SettingsEditor" timestamp="1583604836920">
       <screen x="0" y="23" width="1410" height="877" />
     </state>
     <state x="214" y="100" key="SettingsEditor/0.23.1410.877@0.23.1410.877" timestamp="1583604836920" />
-    <state x="384" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1583824600981">
+    <state x="384" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1583854423941">
       <screen x="0" y="23" width="1411" height="877" />
     </state>
     <state x="384" y="294" key="com.intellij.ide.util.TipDialog/0.23.1410.877@0.23.1410.877" timestamp="1583781270351" />
-    <state x="384" y="294" key="com.intellij.ide.util.TipDialog/0.23.1411.877@0.23.1411.877" timestamp="1583824600981" />
+    <state x="384" y="294" key="com.intellij.ide.util.TipDialog/0.23.1411.877@0.23.1411.877" timestamp="1583854423941" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -464,9 +541,9 @@
           <option name="timeStamp" value="101" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Tutor/MyStringSplitter.java</url>
-          <line>38</line>
-          <option name="timeStamp" value="103" />
+          <url>file://$PROJECT_DIR$/src/SecondSem/ADS/Lesson_3/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="109" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/FirstSem/Lesson_6/FourthTask.java</url>

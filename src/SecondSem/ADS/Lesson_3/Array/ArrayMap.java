@@ -36,8 +36,10 @@ public class ArrayMap<K extends Integer, V> {
     public void put(K key, V value){
         int k = key;
         if (isValidKey(key)){
+            if (arr[k] == null){
+                size++;
+            }
             arr[k] = value;
-            size++;
         }
     }
 }

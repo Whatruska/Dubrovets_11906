@@ -4,7 +4,7 @@ import SecondSem.Informatics.Lesson_2.List;
 import SecondSem.Informatics.Lesson_2.ListElement;
 
 public class ListMap<K,V> {
-    private List<ListMapItem<K,V>> mapList;
+    private List<ListMapItem<K,V>> mapList = new List<>();
 
     public V get (K key){
         ListMapItem<K, V> item = find(key);

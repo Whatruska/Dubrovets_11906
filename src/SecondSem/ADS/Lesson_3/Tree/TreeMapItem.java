@@ -1,12 +1,18 @@
-package SecondSem.ADS.Lesson_3.List;
+package SecondSem.ADS.Lesson_3.Tree;
 
-public class ListMapItem<K, V> {
+public class TreeMapItem<K extends Comparable, V> implements Comparable {
     private K key;
     private V value;
 
-    public ListMapItem(K key, V value) {
+    public TreeMapItem(K key, V value) {
         this.key = key;
         this.value = value;
+    }
+
+    @Override
+    public int compareTo(Object o) {
+        TreeMapItem<K,V> item = (TreeMapItem<K,V>) o;
+        return key.compareTo(item.key);
     }
 
     public K getKey() {
@@ -23,13 +29,5 @@ public class ListMapItem<K, V> {
 
     public void setValue(V value) {
         this.value = value;
-    }
-
-    @Override
-    public String toString() {
-        return "ListMapItem{" +
-                "key=" + key +
-                ", value=" + value +
-                '}';
     }
 }
