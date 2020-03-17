@@ -51,7 +51,7 @@ public class Converter {
 
     public static <T extends Comparable> int binarySearch(T elem, T[] arr) throws Exception {
         if (!isSorted(arr)){
-            throw new Exception("Массив не отсортиорован");
+            throw new NotSortedArrayException("Массив не отсортиорован");
         } else {
             int low = 0;
             int high = arr.length;
@@ -69,4 +69,6 @@ public class Converter {
             return -1;
         }
     }
+
+
 }

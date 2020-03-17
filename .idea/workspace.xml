@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ae29f03-7a4d-4b58-af30-606242732d3a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/SecondSem/ADS/Lesson_4/Task_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SecondSem/ADS/Lesson_4/Task_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SecondSem/ADS/Lesson_5/Converter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SecondSem/ADS/Lesson_5/Example.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tutor/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tutor/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecondSem/ADS/Lesson_5/NotSortedArrayException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SecondSem/ADS/Lesson_3/Hash/HashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SecondSem/ADS/Lesson_3/Hash/HashMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SecondSem/ADS/Lesson_5/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SecondSem/ADS/Lesson_5/Converter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -321,7 +316,7 @@
       <workItem from="1584188440818" duration="6000" />
       <workItem from="1584303979901" duration="292000" />
       <workItem from="1584332083467" duration="92000" />
-      <workItem from="1584429570747" duration="1529000" />
+      <workItem from="1584429570747" duration="2834000" />
     </task>
     <task id="LOCAL-00001" summary="First homework complete">
       <created>1568803577014</created>
@@ -345,11 +340,11 @@
       <screen x="0" y="23" width="1411" height="877" />
     </state>
     <state x="170" y="122" width="1071" height="689" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1411.877@0.23.1411.877" timestamp="1583922865646" />
-    <state x="461" y="146" key="#com.intellij.ide.util.MemberChooser" timestamp="1584186873882">
-      <screen x="0" y="23" width="1255" height="697" />
+    <state x="518" y="178" key="#com.intellij.ide.util.MemberChooser" timestamp="1584432762576">
+      <screen x="0" y="23" width="1410" height="877" />
     </state>
     <state x="461" y="146" key="#com.intellij.ide.util.MemberChooser/0.23.1255.697@0.23.1255.697" timestamp="1584186873882" />
-    <state x="518" y="178" key="#com.intellij.ide.util.MemberChooser/0.23.1410.877@0.23.1410.877" timestamp="1583908371486" />
+    <state x="518" y="178" key="#com.intellij.ide.util.MemberChooser/0.23.1410.877@0.23.1410.877" timestamp="1584432762576" />
     <state x="518" y="178" key="#com.intellij.ide.util.MemberChooser/0.23.1411.877@0.23.1411.877" timestamp="1583915855957" />
     <state x="519" y="178" key="#com.intellij.ide.util.MemberChooser/0.23.1413.877@0.23.1413.877" timestamp="1583944804721" />
     <state x="422" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1583832385393">
