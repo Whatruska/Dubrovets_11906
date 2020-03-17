@@ -9,10 +9,6 @@ public class HashMap<K, V> {
     private ArrayMap<Integer, ListMap<K, V>> map = new ArrayMap<>(MAX_HASH);
     private int size = 0;
 
-    public HashMap() {
-
-    }
-
     public int getSize(){
         return size;
     }
