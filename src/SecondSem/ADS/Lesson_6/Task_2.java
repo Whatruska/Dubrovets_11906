@@ -10,7 +10,7 @@ public class Task_2 {
         for (int i = 0; i < k; i++){
             arr[i] = i + 1;
         }
-        int nFactor = (int) Math.pow(k,2);
+        int nFactor = (int) Math.pow(2,k);
         for (int i = 0; i < nFactor; i++){
             String str = toBinaryStr(i,k);
             int size = 0;
@@ -52,5 +52,4 @@ public class Task_2 {
         str += "}";
         return str;
     }
-
 }

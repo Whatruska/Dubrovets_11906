@@ -1,14 +1,14 @@
 package SecondSem.ADS.Lesson_3.Tree;
 
-public class TreeList<T extends Comparable> {
+public class Tree<T extends Comparable> {
     TreeElement<T> root;
     private int size;
 
-    public TreeList(TreeElement<T> root) {
+    public Tree(TreeElement<T> root) {
         this.root = root;
     }
 
-    public TreeList() {
+    public Tree() {
     }
 
     public int getSize(){

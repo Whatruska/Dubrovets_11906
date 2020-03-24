@@ -1,7 +1,7 @@
 package SecondSem.ADS.Lesson_3.Tree;
 
 public class TreeMap<K extends Comparable, V> {
-    TreeList<TreeMapItem<K, V>> mapList = new TreeList<>();
+    Tree<TreeMapItem<K, V>> mapList = new Tree<>();
 
     public TreeMapItem<K,V> get (K key){
         TreeElement<TreeMapItem<K, V>> elem = mapList.get(new TreeMapItem<>(key, (V)new Object()));
