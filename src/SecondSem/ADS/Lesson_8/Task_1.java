@@ -1,7 +1,5 @@
 package SecondSem.ADS.Lesson_8;
 
-import SecondSem.ADS.Lesson_3.Tree.Tree;
-
 import java.util.*;
 
 public class Task_1 {
@@ -16,6 +14,7 @@ public class Task_1 {
             switch (n){
                 case 0 : {
                     input();
+                    break;
                 }
                 case 1 : {
                     printUsers(usersMap);
@@ -66,8 +65,14 @@ public class Task_1 {
         for (String key : map.keySet()){
             System.out.print(key + " : ");
             TreeSet<String> set = map.get(key);
+            int size = set.size();
+            int count = 0;
             for (String setElem : set){
                 System.out.print(setElem + " ");
+                if (count != size - 1){
+                    System.out.print(",");
+                }
+                count++;
             }
             System.out.println();
         }
