@@ -2,8 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ae29f03-7a4d-4b58-af30-606242732d3a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/com_blazegraph_junit_ext_2_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-4.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-ext-2.1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecondSem/ADS/Lesson_9/Task_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecondSem/ADS/Lesson_9/Task_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecondSem/ADS/Lesson_9/Task_4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Semester_Works/Semester_1/List/PolinomItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Semester_Works/Semester_1/List/PolinomList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Semester_Works/Semester_1/List/PolinomListItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Semester_Works/Semester_1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Semester_Works/Semester_1/MyTask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Semester_Works/Semester_1/Polinom3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Semester_Works/Semester_1/Tests/Polinom3Tests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Semester_Works/Semester_1/Tests/PolinomListTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Semester_Works/Semester_1/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Semester_Works/Semester_1/input2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tutor/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tutor/Role.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SecondSem/ADS/Lesson_8/Task_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SecondSem/ADS/Lesson_8/Task_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KPFU_INFO.iml" beforeDir="false" afterPath="$PROJECT_DIR$/KPFU_INFO.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/SecondSem/ADS/Lesson_8/Task_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KPFU_INFO/SecondSem/ADS/Lesson_8/Task_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Tutor/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KPFU_INFO/Tutor/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Tutor/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KPFU_INFO/Tutor/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tutor/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tutor/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tutor/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tutor/input.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,15 +53,17 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1YoMqWi8kEBXHsTJdK18fB6YVYS" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
@@ -57,9 +84,9 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
@@ -67,92 +94,106 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="SecondSem.Tutor" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/Tutor" />
-    </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="Sarkis" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Tutor" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Semester_Works/Semester_1" />
+      <recent name="$PROJECT_DIR$/src/Tutor" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Task_1 (1)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tutor.Main" />
+  <component name="RunManager" selected="JUnit.Polinom3Tests.correctAdd">
+    <configuration name="Polinom3Tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="KPFU_INFO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tutor.*" />
+          <option name="PATTERN" value="Semester_Works.Semester_1.Tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Semester_Works.Semester_1.Tests" />
+      <option name="MAIN_CLASS_NAME" value="Semester_Works.Semester_1.Tests.Polinom3Tests" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SecondSem.ADS.Lesson_3.Main" />
+    <configuration name="Polinom3Tests.correctAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="KPFU_INFO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SecondSem.ADS.Lesson_3.*" />
+          <option name="PATTERN" value="Semester_Works.Semester_1.Tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Semester_Works.Semester_1.Tests" />
+      <option name="MAIN_CLASS_NAME" value="Semester_Works.Semester_1.Tests.Polinom3Tests" />
+      <option name="METHOD_NAME" value="correctAdd" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task_1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SecondSem.ADS.Lesson_8.Task_1" />
+    <configuration name="Polinom3Tests.correctFileInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="KPFU_INFO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SecondSem.ADS.Lesson_8.*" />
+          <option name="PATTERN" value="Semester_Works.Semester_1.Tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Semester_Works.Semester_1.Tests" />
+      <option name="MAIN_CLASS_NAME" value="Semester_Works.Semester_1.Tests.Polinom3Tests" />
+      <option name="METHOD_NAME" value="correctFileInput" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tutor.Task_1" />
+    <configuration name="Polinom3Tests.valueOfNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="KPFU_INFO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tutor.*" />
+          <option name="PATTERN" value="Semester_Works.Semester_1.Tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Semester_Works.Semester_1.Tests" />
+      <option name="MAIN_CLASS_NAME" value="Semester_Works.Semester_1.Tests.Polinom3Tests" />
+      <option name="METHOD_NAME" value="valueOfNull" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task_3 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SecondSem.ADS.Lesson_7.Task_3" />
+    <configuration name="PolinomListTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="KPFU_INFO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SecondSem.ADS.Lesson_7.*" />
+          <option name="PATTERN" value="Semester_Works.Semester_1.Tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Semester_Works.Semester_1.Tests" />
+      <option name="MAIN_CLASS_NAME" value="Semester_Works.Semester_1.Tests.PolinomListTests" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Task_1 (1)" />
-        <item itemvalue="Application.Task_3 (1)" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Task_1" />
+        <item itemvalue="JUnit.Polinom3Tests.correctAdd" />
+        <item itemvalue="JUnit.PolinomListTests" />
+        <item itemvalue="JUnit.Polinom3Tests" />
+        <item itemvalue="JUnit.Polinom3Tests.correctFileInput" />
+        <item itemvalue="JUnit.Polinom3Tests.valueOfNull" />
       </list>
     </recent_temporary>
   </component>
@@ -335,7 +376,13 @@
       <workItem from="1584897375290" duration="872000" />
       <workItem from="1584952505568" duration="6427000" />
       <workItem from="1585034338420" duration="2452000" />
-      <workItem from="1585114178898" duration="4959000" />
+      <workItem from="1585114178898" duration="5821000" />
+      <workItem from="1585136513948" duration="1898000" />
+      <workItem from="1585202250509" duration="4389000" />
+      <workItem from="1585246452051" duration="2802000" />
+      <workItem from="1585254308181" duration="7858000" />
+      <workItem from="1586078137016" duration="2351000" />
+      <workItem from="1586080911886" duration="25831000" />
     </task>
     <task id="LOCAL-00001" summary="First homework complete">
       <created>1568803577014</created>
@@ -351,6 +398,7 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="First homework complete" />
     <option name="LAST_COMMIT_MESSAGE" value="First homework complete" />
   </component>
@@ -359,122 +407,169 @@
       <screen x="0" y="23" width="1411" height="877" />
     </state>
     <state x="170" y="122" width="1071" height="689" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1411.877@0.23.1411.877" timestamp="1583922865646" />
-    <state x="693" y="210" key="#com.intellij.ide.util.MemberChooser" timestamp="1584459052786">
-      <screen x="0" y="23" width="1886" height="1057" />
+    <state x="100" y="123" width="1207" height="677" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1586098982771">
+      <screen x="0" y="23" width="1405" height="877" />
+    </state>
+    <state x="100" y="123" width="1207" height="677" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1405.877@0.23.1405.877" timestamp="1586098982771" />
+    <state x="435" y="271" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586085957791">
+      <screen x="0" y="23" width="1407" height="877" />
+    </state>
+    <state x="435" y="271" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1407.877@0.23.1407.877" timestamp="1586085957791" />
+    <state x="518" y="178" key="#com.intellij.ide.util.MemberChooser" timestamp="1586107947139">
+      <screen x="0" y="23" width="1410" height="877" />
     </state>
     <state x="461" y="146" key="#com.intellij.ide.util.MemberChooser/0.23.1255.697@0.23.1255.697" timestamp="1584186873882" />
-    <state x="518" y="178" key="#com.intellij.ide.util.MemberChooser/0.23.1410.877@0.23.1410.877" timestamp="1584432762576" />
+    <state x="516" y="178" key="#com.intellij.ide.util.MemberChooser/0.23.1405.877@0.23.1405.877" timestamp="1586097175521" />
+    <state x="517" y="178" key="#com.intellij.ide.util.MemberChooser/0.23.1406.877@0.23.1406.877" timestamp="1586080587364" />
+    <state x="517" y="178" key="#com.intellij.ide.util.MemberChooser/0.23.1407.877@0.23.1407.877" timestamp="1586085101209" />
+    <state x="518" y="178" key="#com.intellij.ide.util.MemberChooser/0.23.1410.877@0.23.1410.877" timestamp="1586107947139" />
     <state x="518" y="178" key="#com.intellij.ide.util.MemberChooser/0.23.1411.877@0.23.1411.877" timestamp="1583915855957" />
     <state x="519" y="178" key="#com.intellij.ide.util.MemberChooser/0.23.1413.877@0.23.1413.877" timestamp="1583944804721" />
+    <state x="520" y="178" key="#com.intellij.ide.util.MemberChooser/0.23.1414.877@0.23.1414.877" timestamp="1585247323403" />
     <state x="693" y="210" key="#com.intellij.ide.util.MemberChooser/0.23.1885.1057@0.23.1885.1057" timestamp="1584450946620" />
     <state x="693" y="210" key="#com.intellij.ide.util.MemberChooser/0.23.1886.1057@0.23.1886.1057" timestamp="1584459052786" />
     <state x="422" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1583832385393">
       <screen x="0" y="23" width="1410" height="877" />
     </state>
     <state x="422" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1410.877@0.23.1410.877" timestamp="1583832385393" />
-    <state width="1372" height="262" key="GridCell.Tab.0.bottom" timestamp="1585119347855">
-      <screen x="0" y="23" width="1414" height="877" />
+    <state width="1365" height="262" key="GridCell.Tab.0.bottom" timestamp="1586107819001">
+      <screen x="0" y="23" width="1410" height="877" />
     </state>
     <state width="1878" height="298" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1584101493729" />
+    <state width="1365" height="262" key="GridCell.Tab.0.bottom/0.23.1405.877@0.23.1405.877" timestamp="1586099391550" />
+    <state width="1365" height="262" key="GridCell.Tab.0.bottom/0.23.1406.877@0.23.1406.877" timestamp="1586099504139" />
+    <state width="1365" height="284" key="GridCell.Tab.0.bottom/0.23.1407.877@0.23.1407.877" timestamp="1586092575945" />
+    <state width="1365" height="262" key="GridCell.Tab.0.bottom/0.23.1410.877@0.23.1410.877" timestamp="1586107819001" />
     <state width="1369" height="284" key="GridCell.Tab.0.bottom/0.23.1411.877@0.23.1411.877" timestamp="1584710765958" />
-    <state width="1371" height="284" key="GridCell.Tab.0.bottom/0.23.1412.877@0.23.1412.877" timestamp="1585039667813" />
+    <state width="1370" height="284" key="GridCell.Tab.0.bottom/0.23.1412.877@0.23.1412.877" timestamp="1585294104541" />
     <state width="1371" height="317" key="GridCell.Tab.0.bottom/0.23.1413.877@0.23.1413.877" timestamp="1584901736081" />
-    <state width="1372" height="262" key="GridCell.Tab.0.bottom/0.23.1414.877@0.23.1414.877" timestamp="1585119347855" />
-    <state width="1372" height="317" key="GridCell.Tab.0.bottom/0.23.1415.877@0.23.1415.877" timestamp="1584956939436" />
+    <state width="1373" height="284" key="GridCell.Tab.0.bottom/0.23.1414.877@0.23.1414.877" timestamp="1585209291619" />
+    <state width="1373" height="262" key="GridCell.Tab.0.bottom/0.23.1415.877@0.23.1415.877" timestamp="1585205460932" />
     <state width="1349" height="298" key="GridCell.Tab.0.bottom/0.23.1886.1057@0.23.1886.1057" timestamp="1584102197547" />
-    <state width="1372" height="262" key="GridCell.Tab.0.center" timestamp="1585119347853">
-      <screen x="0" y="23" width="1414" height="877" />
+    <state width="1365" height="262" key="GridCell.Tab.0.center" timestamp="1586107819000">
+      <screen x="0" y="23" width="1410" height="877" />
     </state>
     <state width="1878" height="298" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1584101493728" />
+    <state width="1365" height="262" key="GridCell.Tab.0.center/0.23.1405.877@0.23.1405.877" timestamp="1586099391550" />
+    <state width="1365" height="262" key="GridCell.Tab.0.center/0.23.1406.877@0.23.1406.877" timestamp="1586099504138" />
+    <state width="1365" height="284" key="GridCell.Tab.0.center/0.23.1407.877@0.23.1407.877" timestamp="1586092575941" />
+    <state width="1365" height="262" key="GridCell.Tab.0.center/0.23.1410.877@0.23.1410.877" timestamp="1586107819000" />
     <state width="1369" height="284" key="GridCell.Tab.0.center/0.23.1411.877@0.23.1411.877" timestamp="1584710765957" />
-    <state width="1371" height="284" key="GridCell.Tab.0.center/0.23.1412.877@0.23.1412.877" timestamp="1585039667812" />
+    <state width="1370" height="284" key="GridCell.Tab.0.center/0.23.1412.877@0.23.1412.877" timestamp="1585294104536" />
     <state width="1371" height="317" key="GridCell.Tab.0.center/0.23.1413.877@0.23.1413.877" timestamp="1584901736080" />
-    <state width="1372" height="262" key="GridCell.Tab.0.center/0.23.1414.877@0.23.1414.877" timestamp="1585119347853" />
-    <state width="1372" height="317" key="GridCell.Tab.0.center/0.23.1415.877@0.23.1415.877" timestamp="1584956939435" />
+    <state width="1373" height="284" key="GridCell.Tab.0.center/0.23.1414.877@0.23.1414.877" timestamp="1585209291618" />
+    <state width="1373" height="262" key="GridCell.Tab.0.center/0.23.1415.877@0.23.1415.877" timestamp="1585205460932" />
     <state width="1349" height="298" key="GridCell.Tab.0.center/0.23.1886.1057@0.23.1886.1057" timestamp="1584102197546" />
-    <state width="1372" height="262" key="GridCell.Tab.0.left" timestamp="1585119347853">
-      <screen x="0" y="23" width="1414" height="877" />
+    <state width="1365" height="262" key="GridCell.Tab.0.left" timestamp="1586107819000">
+      <screen x="0" y="23" width="1410" height="877" />
     </state>
     <state width="1878" height="298" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1584101493727" />
+    <state width="1365" height="262" key="GridCell.Tab.0.left/0.23.1405.877@0.23.1405.877" timestamp="1586099391548" />
+    <state width="1365" height="262" key="GridCell.Tab.0.left/0.23.1406.877@0.23.1406.877" timestamp="1586099504138" />
+    <state width="1365" height="284" key="GridCell.Tab.0.left/0.23.1407.877@0.23.1407.877" timestamp="1586092575940" />
+    <state width="1365" height="262" key="GridCell.Tab.0.left/0.23.1410.877@0.23.1410.877" timestamp="1586107819000" />
     <state width="1369" height="284" key="GridCell.Tab.0.left/0.23.1411.877@0.23.1411.877" timestamp="1584710765957" />
-    <state width="1371" height="284" key="GridCell.Tab.0.left/0.23.1412.877@0.23.1412.877" timestamp="1585039667812" />
+    <state width="1370" height="284" key="GridCell.Tab.0.left/0.23.1412.877@0.23.1412.877" timestamp="1585294104536" />
     <state width="1371" height="317" key="GridCell.Tab.0.left/0.23.1413.877@0.23.1413.877" timestamp="1584901736080" />
-    <state width="1372" height="262" key="GridCell.Tab.0.left/0.23.1414.877@0.23.1414.877" timestamp="1585119347853" />
-    <state width="1372" height="317" key="GridCell.Tab.0.left/0.23.1415.877@0.23.1415.877" timestamp="1584956939434" />
+    <state width="1373" height="284" key="GridCell.Tab.0.left/0.23.1414.877@0.23.1414.877" timestamp="1585209291617" />
+    <state width="1373" height="262" key="GridCell.Tab.0.left/0.23.1415.877@0.23.1415.877" timestamp="1585205460931" />
     <state width="1349" height="298" key="GridCell.Tab.0.left/0.23.1886.1057@0.23.1886.1057" timestamp="1584102197546" />
-    <state width="1372" height="262" key="GridCell.Tab.0.right" timestamp="1585119347854">
-      <screen x="0" y="23" width="1414" height="877" />
+    <state width="1365" height="262" key="GridCell.Tab.0.right" timestamp="1586107819000">
+      <screen x="0" y="23" width="1410" height="877" />
     </state>
     <state width="1878" height="298" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1584101493728" />
+    <state width="1365" height="262" key="GridCell.Tab.0.right/0.23.1405.877@0.23.1405.877" timestamp="1586099391550" />
+    <state width="1365" height="262" key="GridCell.Tab.0.right/0.23.1406.877@0.23.1406.877" timestamp="1586099504139" />
+    <state width="1365" height="284" key="GridCell.Tab.0.right/0.23.1407.877@0.23.1407.877" timestamp="1586092575944" />
+    <state width="1365" height="262" key="GridCell.Tab.0.right/0.23.1410.877@0.23.1410.877" timestamp="1586107819000" />
     <state width="1369" height="284" key="GridCell.Tab.0.right/0.23.1411.877@0.23.1411.877" timestamp="1584710765958" />
-    <state width="1371" height="284" key="GridCell.Tab.0.right/0.23.1412.877@0.23.1412.877" timestamp="1585039667812" />
+    <state width="1370" height="284" key="GridCell.Tab.0.right/0.23.1412.877@0.23.1412.877" timestamp="1585294104539" />
     <state width="1371" height="317" key="GridCell.Tab.0.right/0.23.1413.877@0.23.1413.877" timestamp="1584901736081" />
-    <state width="1372" height="262" key="GridCell.Tab.0.right/0.23.1414.877@0.23.1414.877" timestamp="1585119347854" />
-    <state width="1372" height="317" key="GridCell.Tab.0.right/0.23.1415.877@0.23.1415.877" timestamp="1584956939435" />
+    <state width="1373" height="284" key="GridCell.Tab.0.right/0.23.1414.877@0.23.1414.877" timestamp="1585209291618" />
+    <state width="1373" height="262" key="GridCell.Tab.0.right/0.23.1415.877@0.23.1415.877" timestamp="1585205460932" />
     <state width="1349" height="298" key="GridCell.Tab.0.right/0.23.1886.1057@0.23.1886.1057" timestamp="1584102197546" />
-    <state width="1372" height="284" key="GridCell.Tab.1.bottom" timestamp="1585118593964">
-      <screen x="0" y="23" width="1414" height="877" />
+    <state width="1365" height="284" key="GridCell.Tab.1.bottom" timestamp="1586104949463">
+      <screen x="0" y="23" width="1410" height="877" />
     </state>
     <state width="1878" height="374" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1584101478958" />
+    <state width="1365" height="284" key="GridCell.Tab.1.bottom/0.23.1405.877@0.23.1405.877" timestamp="1586098983057" />
+    <state width="1365" height="284" key="GridCell.Tab.1.bottom/0.23.1407.877@0.23.1407.877" timestamp="1586092575947" />
+    <state width="1365" height="284" key="GridCell.Tab.1.bottom/0.23.1410.877@0.23.1410.877" timestamp="1586104949463" />
     <state width="1369" height="284" key="GridCell.Tab.1.bottom/0.23.1411.877@0.23.1411.877" timestamp="1584710765959" />
-    <state width="1371" height="284" key="GridCell.Tab.1.bottom/0.23.1412.877@0.23.1412.877" timestamp="1585039667814" />
+    <state width="1370" height="284" key="GridCell.Tab.1.bottom/0.23.1412.877@0.23.1412.877" timestamp="1585294104543" />
     <state width="1371" height="284" key="GridCell.Tab.1.bottom/0.23.1413.877@0.23.1413.877" timestamp="1584895751668" />
-    <state width="1372" height="284" key="GridCell.Tab.1.bottom/0.23.1414.877@0.23.1414.877" timestamp="1585118593964" />
-    <state width="1372" height="284" key="GridCell.Tab.1.bottom/0.23.1415.877@0.23.1415.877" timestamp="1584956215722" />
+    <state width="1373" height="284" key="GridCell.Tab.1.bottom/0.23.1414.877@0.23.1414.877" timestamp="1585209291620" />
+    <state width="1373" height="284" key="GridCell.Tab.1.bottom/0.23.1415.877@0.23.1415.877" timestamp="1585204024380" />
     <state width="1878" height="374" key="GridCell.Tab.1.bottom/0.23.1886.1057@0.23.1886.1057" timestamp="1584102197541" />
-    <state width="1372" height="284" key="GridCell.Tab.1.center" timestamp="1585118593963">
-      <screen x="0" y="23" width="1414" height="877" />
+    <state width="1365" height="284" key="GridCell.Tab.1.center" timestamp="1586104949462">
+      <screen x="0" y="23" width="1410" height="877" />
     </state>
     <state width="1878" height="374" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1584101478957" />
+    <state width="1365" height="284" key="GridCell.Tab.1.center/0.23.1405.877@0.23.1405.877" timestamp="1586098983056" />
+    <state width="1365" height="284" key="GridCell.Tab.1.center/0.23.1407.877@0.23.1407.877" timestamp="1586092575946" />
+    <state width="1365" height="284" key="GridCell.Tab.1.center/0.23.1410.877@0.23.1410.877" timestamp="1586104949462" />
     <state width="1369" height="284" key="GridCell.Tab.1.center/0.23.1411.877@0.23.1411.877" timestamp="1584710765959" />
-    <state width="1371" height="284" key="GridCell.Tab.1.center/0.23.1412.877@0.23.1412.877" timestamp="1585039667813" />
+    <state width="1370" height="284" key="GridCell.Tab.1.center/0.23.1412.877@0.23.1412.877" timestamp="1585294104542" />
     <state width="1371" height="284" key="GridCell.Tab.1.center/0.23.1413.877@0.23.1413.877" timestamp="1584895751667" />
-    <state width="1372" height="284" key="GridCell.Tab.1.center/0.23.1414.877@0.23.1414.877" timestamp="1585118593963" />
-    <state width="1372" height="284" key="GridCell.Tab.1.center/0.23.1415.877@0.23.1415.877" timestamp="1584956215721" />
+    <state width="1373" height="284" key="GridCell.Tab.1.center/0.23.1414.877@0.23.1414.877" timestamp="1585209291620" />
+    <state width="1373" height="284" key="GridCell.Tab.1.center/0.23.1415.877@0.23.1415.877" timestamp="1585204024378" />
     <state width="1878" height="374" key="GridCell.Tab.1.center/0.23.1886.1057@0.23.1886.1057" timestamp="1584102197541" />
-    <state width="1372" height="284" key="GridCell.Tab.1.left" timestamp="1585118593963">
-      <screen x="0" y="23" width="1414" height="877" />
+    <state width="1365" height="284" key="GridCell.Tab.1.left" timestamp="1586104949462">
+      <screen x="0" y="23" width="1410" height="877" />
     </state>
     <state width="1878" height="374" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1584101478956" />
+    <state width="1365" height="284" key="GridCell.Tab.1.left/0.23.1405.877@0.23.1405.877" timestamp="1586098983055" />
+    <state width="1365" height="284" key="GridCell.Tab.1.left/0.23.1407.877@0.23.1407.877" timestamp="1586092575946" />
+    <state width="1365" height="284" key="GridCell.Tab.1.left/0.23.1410.877@0.23.1410.877" timestamp="1586104949462" />
     <state width="1369" height="284" key="GridCell.Tab.1.left/0.23.1411.877@0.23.1411.877" timestamp="1584710765958" />
-    <state width="1371" height="284" key="GridCell.Tab.1.left/0.23.1412.877@0.23.1412.877" timestamp="1585039667813" />
+    <state width="1370" height="284" key="GridCell.Tab.1.left/0.23.1412.877@0.23.1412.877" timestamp="1585294104542" />
     <state width="1371" height="284" key="GridCell.Tab.1.left/0.23.1413.877@0.23.1413.877" timestamp="1584895751667" />
-    <state width="1372" height="284" key="GridCell.Tab.1.left/0.23.1414.877@0.23.1414.877" timestamp="1585118593963" />
-    <state width="1372" height="284" key="GridCell.Tab.1.left/0.23.1415.877@0.23.1415.877" timestamp="1584956215721" />
+    <state width="1373" height="284" key="GridCell.Tab.1.left/0.23.1414.877@0.23.1414.877" timestamp="1585209291619" />
+    <state width="1373" height="284" key="GridCell.Tab.1.left/0.23.1415.877@0.23.1415.877" timestamp="1585204024376" />
     <state width="1878" height="374" key="GridCell.Tab.1.left/0.23.1886.1057@0.23.1886.1057" timestamp="1584102197540" />
-    <state width="1372" height="284" key="GridCell.Tab.1.right" timestamp="1585118593964">
-      <screen x="0" y="23" width="1414" height="877" />
+    <state width="1365" height="284" key="GridCell.Tab.1.right" timestamp="1586104949463">
+      <screen x="0" y="23" width="1410" height="877" />
     </state>
     <state width="1878" height="374" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1584101478957" />
+    <state width="1365" height="284" key="GridCell.Tab.1.right/0.23.1405.877@0.23.1405.877" timestamp="1586098983056" />
+    <state width="1365" height="284" key="GridCell.Tab.1.right/0.23.1407.877@0.23.1407.877" timestamp="1586092575947" />
+    <state width="1365" height="284" key="GridCell.Tab.1.right/0.23.1410.877@0.23.1410.877" timestamp="1586104949463" />
     <state width="1369" height="284" key="GridCell.Tab.1.right/0.23.1411.877@0.23.1411.877" timestamp="1584710765959" />
-    <state width="1371" height="284" key="GridCell.Tab.1.right/0.23.1412.877@0.23.1412.877" timestamp="1585039667814" />
+    <state width="1370" height="284" key="GridCell.Tab.1.right/0.23.1412.877@0.23.1412.877" timestamp="1585294104542" />
     <state width="1371" height="284" key="GridCell.Tab.1.right/0.23.1413.877@0.23.1413.877" timestamp="1584895751667" />
-    <state width="1372" height="284" key="GridCell.Tab.1.right/0.23.1414.877@0.23.1414.877" timestamp="1585118593964" />
-    <state width="1372" height="284" key="GridCell.Tab.1.right/0.23.1415.877@0.23.1415.877" timestamp="1584956215722" />
+    <state width="1373" height="284" key="GridCell.Tab.1.right/0.23.1414.877@0.23.1414.877" timestamp="1585209291620" />
+    <state width="1373" height="284" key="GridCell.Tab.1.right/0.23.1415.877@0.23.1415.877" timestamp="1585204024379" />
     <state width="1878" height="374" key="GridCell.Tab.1.right/0.23.1886.1057@0.23.1886.1057" timestamp="1584102197541" />
     <state x="425" y="181" width="562" height="556" key="RefactorJ.ExtractClass" timestamp="1584517615746">
       <screen x="0" y="23" width="1411" height="877" />
     </state>
     <state x="425" y="181" width="562" height="556" key="RefactorJ.ExtractClass/0.23.1411.877@0.23.1411.877" timestamp="1584517615746" />
-    <state x="214" y="100" key="SettingsEditor" timestamp="1583604836920">
-      <screen x="0" y="23" width="1410" height="877" />
+    <state x="213" y="63" key="SettingsEditor" timestamp="1586093047702">
+      <screen x="0" y="23" width="1406" height="877" />
     </state>
+    <state x="213" y="63" key="SettingsEditor/0.23.1406.877@0.23.1406.877" timestamp="1586093047702" />
     <state x="214" y="100" key="SettingsEditor/0.23.1410.877@0.23.1410.877" timestamp="1583604836920" />
     <state x="384" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1583854423941">
       <screen x="0" y="23" width="1411" height="877" />
     </state>
     <state x="384" y="294" key="com.intellij.ide.util.TipDialog/0.23.1410.877@0.23.1410.877" timestamp="1583781270351" />
     <state x="384" y="294" key="com.intellij.ide.util.TipDialog/0.23.1411.877@0.23.1411.877" timestamp="1583854423941" />
+    <state x="429" y="382" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1586093039090">
+      <screen x="0" y="23" width="1406" height="877" />
+    </state>
+    <state x="429" y="382" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.1406.877@0.23.1406.877" timestamp="1586093039090" />
     <state x="444" y="235" width="524" height="456" key="extract.method.dialog" timestamp="1584517766242">
       <screen x="0" y="23" width="1411" height="877" />
     </state>
     <state x="444" y="235" width="524" height="456" key="extract.method.dialog/0.23.1411.877@0.23.1411.877" timestamp="1584517766242" />
-    <state x="372" y="213" width="672" height="677" key="search.everywhere.popup" timestamp="1584891368919">
-      <screen x="0" y="23" width="1413" height="877" />
+    <state x="370" y="213" width="670" height="677" key="search.everywhere.popup" timestamp="1586094714273">
+      <screen x="0" y="23" width="1405" height="877" />
     </state>
+    <state x="370" y="213" width="670" height="677" key="search.everywhere.popup/0.23.1405.877@0.23.1405.877" timestamp="1586094714273" />
     <state x="370" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1410.877@0.23.1410.877" timestamp="1584431378266" />
     <state x="371" y="213" width="671" height="677" key="search.everywhere.popup/0.23.1411.877@0.23.1411.877" timestamp="1584517173059" />
     <state x="372" y="213" width="672" height="677" key="search.everywhere.popup/0.23.1413.877@0.23.1413.877" timestamp="1584891368919" />
+    <state x="373" y="213" width="673" height="677" key="search.everywhere.popup/0.23.1415.877@0.23.1415.877" timestamp="1585204698801" />
     <state x="495" y="252" width="896" height="815" key="search.everywhere.popup/0.23.1885.1057@0.23.1885.1057" timestamp="1584451008381" />
   </component>
   <component name="XDebuggerManager">
@@ -595,6 +690,21 @@
           <line>84</line>
           <option name="timeStamp" value="116" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SecondSem/ADS/Lesson_9/Task_4.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SecondSem/ADS/Lesson_9/Task_1.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Semester_Works/Semester_1/Tests/Polinom3Tests.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/FirstSem/Lesson_6/FourthTask.java</url>
           <line>5</line>
@@ -605,101 +715,5 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>KPFU_INFO</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
