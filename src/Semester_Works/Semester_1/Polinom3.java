@@ -12,7 +12,7 @@ import java.util.Scanner;
 import java.util.StringTokenizer;
 
 public class Polinom3 {
-    private PolinomList list = new PolinomList();
+    private PolinomList<PolinomListItem> list = new PolinomList<>();
 
     public Polinom3(String filename) throws IOException {
         list = formPolinomList(filename);
@@ -21,8 +21,8 @@ public class Polinom3 {
     public Polinom3() {}
 
     //T = O(N), M = O(N)
-    private PolinomList formPolinomList(String filename) throws IOException {
-        PolinomList result = new PolinomList();
+    private PolinomList<PolinomListItem> formPolinomList(String filename) throws IOException {
+        PolinomList<PolinomListItem> result = new PolinomList<>();
         Path p = Paths.get("src/Semester_Works/Semester_1/" + filename);
         File file = p.toFile();
         BufferedReader reader = new BufferedReader(new FileReader(file));
@@ -47,7 +47,7 @@ public class Polinom3 {
 
     //T = O(K + N)
     public void add(Polinom3 polinom){
-        PolinomList polinomList = polinom.list;
+        PolinomList<PolinomListItem> polinomList = polinom.list;
         PolinomListItem item2 = polinomList.getHead();
         PolinomListItem item1 = list.getHead();
         int size1 = list.size();
@@ -90,7 +90,7 @@ public class Polinom3 {
             j++;
         }
 
-        list = new PolinomList(items);
+        list = new PolinomList<>(items);
     }
     //T = O(N)
     public void delete(int xDeg, int yDeg, int zDeg){
@@ -99,7 +99,7 @@ public class Polinom3 {
 
     //T = O(N^2)
     public void derivative(int i){
-        PolinomList newList = new PolinomList();
+        PolinomList<PolinomListItem> newList = new PolinomList<>();
         int size = list.size();
         PolinomListItem item = list.getHead();
         for (int j = 0; j < size; j++){

@@ -1,18 +1,18 @@
 package Semester_Works.Semester_1.List;
 
-public class PolinomList {
-    private PolinomListItem head;
+public class PolinomList<T extends PolinomListItem> {
+    private T head;
     private int size;
 
-    public PolinomList(PolinomListItem head) {
+    public PolinomList(T head) {
         this.head = head;
         size++;
     }
 
     public PolinomList(){}
 
-    public PolinomList(PolinomListItem[] arr){
-        PolinomListItem last = head;
+    public PolinomList(T[] arr){
+        T last = head;
         for (int i = 0; i < arr.length; i++){
             if (arr[i] != null) {
                 if (i == 0){
@@ -20,7 +20,7 @@ public class PolinomList {
                     last = head;
                 } else {
                     last.setNext(arr[i]);
-                    last = last.getNext();
+                    last = (T)last.getNext();
                 }
                 size++;
             }
@@ -36,20 +36,20 @@ public class PolinomList {
     }
 
     //T = O(N)
-    public void add(PolinomListItem item){
-        item = item.copy();
-        PolinomListItem curr = head;
-        PolinomListItem prev = head;
+    public void add(T item){
+        item = (T)item.copy();
+        T curr = head;
+        T prev = head;
 
         if (size == 0){
             head = item;
         } else {
             while (item.compareTo(curr) < 0){
                 if (curr == head){
-                    curr = curr.getNext();
+                    curr = (T)curr.getNext();
                 } else {
-                    curr = curr.getNext();
-                    prev = prev.getNext();
+                    curr = (T)curr.getNext();
+                    prev = (T)prev.getNext();
                 }
             }
             if (item.compareTo(curr) == 0){
@@ -70,7 +70,7 @@ public class PolinomList {
     }
 
     public void add(int coef, int deg1, int deg2, int deg3){
-        add(new PolinomListItem(coef, deg1, deg2, deg3));
+        add((T)new PolinomListItem(coef, deg1, deg2, deg3));
     }
 
     //T = O(N)
@@ -88,7 +88,7 @@ public class PolinomList {
                 }
             }
             if (curr == head){
-                head = head.getNext();
+                head = (T)head.getNext();
             } else {
                 if (curr != null && curr.compareTo(item) == 0){
                     prev.setNext(curr.getNext());
