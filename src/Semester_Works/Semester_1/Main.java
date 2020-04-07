@@ -1,6 +1,7 @@
 package Semester_Works.Semester_1;
 
 import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.net.URISyntaxException;
 
 public class Main {
@@ -10,9 +11,9 @@ public class Main {
         try {
             polinom1 = new Polinom3("input.txt");
             polinom2 = new Polinom3("input2.txt");
-        } catch (URISyntaxException e) {
+        }  catch (FileNotFoundException e) {
             e.printStackTrace();
-        } catch (FileNotFoundException e) {
+        } catch (IOException e) {
             e.printStackTrace();
         }
         polinom1.add(polinom2);

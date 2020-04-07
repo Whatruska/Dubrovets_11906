@@ -17,6 +17,7 @@ public class PolinomList {
             if (arr[i] != null) {
                 if (i == 0){
                     head = arr[i];
+                    last = head;
                 } else {
                     last.setNext(arr[i]);
                     last = last.getNext();

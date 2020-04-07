@@ -3,38 +3,40 @@ package Semester_Works.Semester_1;
 import Semester_Works.Semester_1.List.PolinomList;
 import Semester_Works.Semester_1.List.PolinomListItem;
 
-import java.io.File;
-import java.io.FileNotFoundException;
+import java.io.*;
 import java.net.URISyntaxException;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.Objects;
 import java.util.Scanner;
+import java.util.StringTokenizer;
 
 public class Polinom3 {
     private PolinomList list = new PolinomList();
 
-    public Polinom3(String filename) throws URISyntaxException, FileNotFoundException {
+    public Polinom3(String filename) throws IOException {
         list = formPolinomList(filename);
     }
 
     public Polinom3() {}
 
     //T = O(N), M = O(N)
-    private PolinomList formPolinomList(String filename) throws URISyntaxException, FileNotFoundException {
+    private PolinomList formPolinomList(String filename) throws IOException {
         PolinomList result = new PolinomList();
-        Scanner scanner = new Scanner(new File(Main.class.getResource(filename).toURI()));
-        while (scanner.hasNext()){
-            String line = scanner.nextLine();
-            String[] parts = line.split("\\s+");
-            int[] numbers = new int[parts.length];
-            for (int i = 0; i < parts.length; i++){
-                numbers[i] = Integer.parseInt(parts[i]);
-            }
-            int coef = numbers[0];
-            int x = numbers[1];
-            int y = numbers[2];
-            int z = numbers[3];
+        Path p = Paths.get("src/Semester_Works/Semester_1/" + filename);
+        File file = p.toFile();
+        BufferedReader reader = new BufferedReader(new FileReader(file));
+        String line = reader.readLine();
+        while (line != null){
+            StringTokenizer tokenizer = new StringTokenizer(line);
+            int coef = Integer.parseInt(tokenizer.nextToken());
+            int x = Integer.parseInt(tokenizer.nextToken());
+            int y = Integer.parseInt(tokenizer.nextToken());
+            int z = Integer.parseInt(tokenizer.nextToken());
             result.add(coef, x, y, z);
+            line = reader.readLine();
         }
+        reader.close();
         return result;
     }
 

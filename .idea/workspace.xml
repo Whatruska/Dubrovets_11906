@@ -2,19 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ae29f03-7a4d-4b58-af30-606242732d3a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Semester_Works/Semester_1/Отчет.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/META-INF/KPFU_INFO.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Semester_Works/Semester_1/List/PolinomItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KPFU_INFO/Semester_Works/Semester_1/List/PolinomItem.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Semester_Works/Semester_1/List/PolinomList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KPFU_INFO/Semester_Works/Semester_1/List/PolinomList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Semester_Works/Semester_1/List/PolinomListItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KPFU_INFO/Semester_Works/Semester_1/List/PolinomListItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Semester_Works/Semester_1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KPFU_INFO/Semester_Works/Semester_1/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Semester_Works/Semester_1/Polinom3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KPFU_INFO/Semester_Works/Semester_1/Polinom3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Semester_Works/Semester_1/Tests/PolinomListTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KPFU_INFO/Semester_Works/Semester_1/Tests/PolinomListTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KPFU_INFO/Semester_Works/Semester_1/Tests/Polinom3Tests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KPFU_INFO/Semester_Works/Semester_1/Tests/Polinom3Tests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Semester_Works/Semester_1/List/PolinomList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Semester_Works/Semester_1/List/PolinomList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Semester_Works/Semester_1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Semester_Works/Semester_1/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Semester_Works/Semester_1/Polinom3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Semester_Works/Semester_1/Polinom3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Semester_Works/Semester_1/Tests/Polinom3Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Semester_Works/Semester_1/Tests/Polinom3Tests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Semester_Works/Semester_1/Tests/PolinomListTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Semester_Works/Semester_1/Tests/PolinomListTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +57,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -77,25 +73,41 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="Sarkis" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="SecondSem.Tutor" />
     </key>
-    <key name="ExtractSuperBase.RECENT_KEYS">
-      <recent name="Sarkis" />
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Vitalii D\IdeaProjects\Dubrovets_11906\src\Semester_Works\Semester_1" />
       <recent name="$PROJECT_DIR$/src/Semester_Works/Semester_1" />
       <recent name="$PROJECT_DIR$/src/Tutor" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Vitalii D\IdeaProjects\Dubrovets_11906\src" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Tutor" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Polinom3Tests.mergeAdd">
+  <component name="RunManager" selected="JUnit.Polinom3Tests">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Semester_Works.Semester_1.Main" />
+      <module name="KPFU_INFO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Semester_Works.Semester_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Polinom3Tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="KPFU_INFO" />
       <extension name="coverage">
@@ -122,22 +134,6 @@
       <option name="PACKAGE_NAME" value="Semester_Works.Semester_1.Tests" />
       <option name="MAIN_CLASS_NAME" value="Semester_Works.Semester_1.Tests.Polinom3Tests" />
       <option name="METHOD_NAME" value="correctAdd" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Polinom3Tests.correctFileInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="KPFU_INFO" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Semester_Works.Semester_1.Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Semester_Works.Semester_1.Tests" />
-      <option name="MAIN_CLASS_NAME" value="Semester_Works.Semester_1.Tests.Polinom3Tests" />
-      <option name="METHOD_NAME" value="correctFileInput" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -176,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Polinom3Tests.mergeAdd" />
         <item itemvalue="JUnit.Polinom3Tests" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.Polinom3Tests.mergeAdd" />
         <item itemvalue="JUnit.Polinom3Tests.correctAdd" />
         <item itemvalue="JUnit.PolinomListTests" />
-        <item itemvalue="JUnit.Polinom3Tests.correctFileInput" />
       </list>
     </recent_temporary>
   </component>
@@ -371,7 +367,7 @@
       <workItem from="1586078137016" duration="2351000" />
       <workItem from="1586080911886" duration="25831000" />
       <workItem from="1586149902393" duration="137000" />
-      <workItem from="1586244252305" duration="3181000" />
+      <workItem from="1586244252305" duration="6329000" />
     </task>
     <task id="LOCAL-00001" summary="First homework complete">
       <created>1568803577014</created>
@@ -425,14 +421,18 @@
       <screen x="0" y="23" width="1410" height="877" />
     </state>
     <state x="422" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1410.877@0.23.1410.877" timestamp="1583832385393" />
+    <state x="491" y="169" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586251042937">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="491" y="169" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860@0.0.1600.860" timestamp="1586251042937" />
     <state width="402" height="466" key="DebuggerActiveHint" timestamp="1586247804023">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="402" height="466" key="DebuggerActiveHint/0.0.1600.860@0.0.1600.860" timestamp="1586247804023" />
-    <state width="1340" height="256" key="GridCell.Tab.0.bottom" timestamp="1586247960269">
+    <state width="1340" height="206" key="GridCell.Tab.0.bottom" timestamp="1586251508562">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1340" height="256" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1586247960269" />
+    <state width="1340" height="206" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1586251508562" />
     <state width="1878" height="298" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1584101493729" />
     <state width="1365" height="262" key="GridCell.Tab.0.bottom/0.23.1405.877@0.23.1405.877" timestamp="1586099391550" />
     <state width="1365" height="262" key="GridCell.Tab.0.bottom/0.23.1406.877@0.23.1406.877" timestamp="1586099504139" />
@@ -444,10 +444,10 @@
     <state width="1373" height="284" key="GridCell.Tab.0.bottom/0.23.1414.877@0.23.1414.877" timestamp="1585209291619" />
     <state width="1373" height="262" key="GridCell.Tab.0.bottom/0.23.1415.877@0.23.1415.877" timestamp="1585205460932" />
     <state width="1349" height="298" key="GridCell.Tab.0.bottom/0.23.1886.1057@0.23.1886.1057" timestamp="1584102197547" />
-    <state width="1340" height="256" key="GridCell.Tab.0.center" timestamp="1586247960269">
+    <state width="1340" height="206" key="GridCell.Tab.0.center" timestamp="1586251508562">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1340" height="256" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1586247960269" />
+    <state width="1340" height="206" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1586251508562" />
     <state width="1878" height="298" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1584101493728" />
     <state width="1365" height="262" key="GridCell.Tab.0.center/0.23.1405.877@0.23.1405.877" timestamp="1586099391550" />
     <state width="1365" height="262" key="GridCell.Tab.0.center/0.23.1406.877@0.23.1406.877" timestamp="1586099504138" />
@@ -459,10 +459,10 @@
     <state width="1373" height="284" key="GridCell.Tab.0.center/0.23.1414.877@0.23.1414.877" timestamp="1585209291618" />
     <state width="1373" height="262" key="GridCell.Tab.0.center/0.23.1415.877@0.23.1415.877" timestamp="1585205460932" />
     <state width="1349" height="298" key="GridCell.Tab.0.center/0.23.1886.1057@0.23.1886.1057" timestamp="1584102197546" />
-    <state width="1340" height="256" key="GridCell.Tab.0.left" timestamp="1586247960269">
+    <state width="1340" height="206" key="GridCell.Tab.0.left" timestamp="1586251508562">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1340" height="256" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1586247960269" />
+    <state width="1340" height="206" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1586251508562" />
     <state width="1878" height="298" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1584101493727" />
     <state width="1365" height="262" key="GridCell.Tab.0.left/0.23.1405.877@0.23.1405.877" timestamp="1586099391548" />
     <state width="1365" height="262" key="GridCell.Tab.0.left/0.23.1406.877@0.23.1406.877" timestamp="1586099504138" />
@@ -474,10 +474,10 @@
     <state width="1373" height="284" key="GridCell.Tab.0.left/0.23.1414.877@0.23.1414.877" timestamp="1585209291617" />
     <state width="1373" height="262" key="GridCell.Tab.0.left/0.23.1415.877@0.23.1415.877" timestamp="1585205460931" />
     <state width="1349" height="298" key="GridCell.Tab.0.left/0.23.1886.1057@0.23.1886.1057" timestamp="1584102197546" />
-    <state width="1340" height="256" key="GridCell.Tab.0.right" timestamp="1586247960269">
+    <state width="1340" height="206" key="GridCell.Tab.0.right" timestamp="1586251508562">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1340" height="256" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1586247960269" />
+    <state width="1340" height="206" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1586251508562" />
     <state width="1878" height="298" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1584101493728" />
     <state width="1365" height="262" key="GridCell.Tab.0.right/0.23.1405.877@0.23.1405.877" timestamp="1586099391550" />
     <state width="1365" height="262" key="GridCell.Tab.0.right/0.23.1406.877@0.23.1406.877" timestamp="1586099504139" />
@@ -489,10 +489,10 @@
     <state width="1373" height="284" key="GridCell.Tab.0.right/0.23.1414.877@0.23.1414.877" timestamp="1585209291618" />
     <state width="1373" height="262" key="GridCell.Tab.0.right/0.23.1415.877@0.23.1415.877" timestamp="1585205460932" />
     <state width="1349" height="298" key="GridCell.Tab.0.right/0.23.1886.1057@0.23.1886.1057" timestamp="1584102197546" />
-    <state width="1340" height="256" key="GridCell.Tab.1.bottom" timestamp="1586247960269">
+    <state width="1340" height="256" key="GridCell.Tab.1.bottom" timestamp="1586251497050">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1340" height="256" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1586247960269" />
+    <state width="1340" height="256" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1586251497050" />
     <state width="1878" height="374" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1584101478958" />
     <state width="1365" height="284" key="GridCell.Tab.1.bottom/0.23.1405.877@0.23.1405.877" timestamp="1586098983057" />
     <state width="1365" height="284" key="GridCell.Tab.1.bottom/0.23.1407.877@0.23.1407.877" timestamp="1586092575947" />
@@ -503,10 +503,10 @@
     <state width="1373" height="284" key="GridCell.Tab.1.bottom/0.23.1414.877@0.23.1414.877" timestamp="1585209291620" />
     <state width="1373" height="284" key="GridCell.Tab.1.bottom/0.23.1415.877@0.23.1415.877" timestamp="1585204024380" />
     <state width="1878" height="374" key="GridCell.Tab.1.bottom/0.23.1886.1057@0.23.1886.1057" timestamp="1584102197541" />
-    <state width="1340" height="256" key="GridCell.Tab.1.center" timestamp="1586247960269">
+    <state width="1340" height="256" key="GridCell.Tab.1.center" timestamp="1586251497050">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1340" height="256" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1586247960269" />
+    <state width="1340" height="256" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1586251497050" />
     <state width="1878" height="374" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1584101478957" />
     <state width="1365" height="284" key="GridCell.Tab.1.center/0.23.1405.877@0.23.1405.877" timestamp="1586098983056" />
     <state width="1365" height="284" key="GridCell.Tab.1.center/0.23.1407.877@0.23.1407.877" timestamp="1586092575946" />
@@ -517,10 +517,10 @@
     <state width="1373" height="284" key="GridCell.Tab.1.center/0.23.1414.877@0.23.1414.877" timestamp="1585209291620" />
     <state width="1373" height="284" key="GridCell.Tab.1.center/0.23.1415.877@0.23.1415.877" timestamp="1585204024378" />
     <state width="1878" height="374" key="GridCell.Tab.1.center/0.23.1886.1057@0.23.1886.1057" timestamp="1584102197541" />
-    <state width="1340" height="256" key="GridCell.Tab.1.left" timestamp="1586247960269">
+    <state width="1340" height="256" key="GridCell.Tab.1.left" timestamp="1586251497050">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1340" height="256" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1586247960269" />
+    <state width="1340" height="256" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1586251497050" />
     <state width="1878" height="374" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1584101478956" />
     <state width="1365" height="284" key="GridCell.Tab.1.left/0.23.1405.877@0.23.1405.877" timestamp="1586098983055" />
     <state width="1365" height="284" key="GridCell.Tab.1.left/0.23.1407.877@0.23.1407.877" timestamp="1586092575946" />
@@ -531,10 +531,10 @@
     <state width="1373" height="284" key="GridCell.Tab.1.left/0.23.1414.877@0.23.1414.877" timestamp="1585209291619" />
     <state width="1373" height="284" key="GridCell.Tab.1.left/0.23.1415.877@0.23.1415.877" timestamp="1585204024376" />
     <state width="1878" height="374" key="GridCell.Tab.1.left/0.23.1886.1057@0.23.1886.1057" timestamp="1584102197540" />
-    <state width="1340" height="256" key="GridCell.Tab.1.right" timestamp="1586247960269">
+    <state width="1340" height="256" key="GridCell.Tab.1.right" timestamp="1586251497050">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1340" height="256" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1586247960269" />
+    <state width="1340" height="256" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1586251497050" />
     <state width="1878" height="374" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1584101478957" />
     <state width="1365" height="284" key="GridCell.Tab.1.right/0.23.1405.877@0.23.1405.877" timestamp="1586098983056" />
     <state width="1365" height="284" key="GridCell.Tab.1.right/0.23.1407.877@0.23.1407.877" timestamp="1586092575947" />
@@ -568,6 +568,10 @@
       <screen x="0" y="23" width="1411" height="877" />
     </state>
     <state x="444" y="235" width="524" height="456" key="extract.method.dialog/0.23.1411.877@0.23.1411.877" timestamp="1584517766242" />
+    <state x="417" y="193" key="run.anything.popup" timestamp="1586248659231">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="417" y="193" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1586248659231" />
     <state x="370" y="213" width="670" height="677" key="search.everywhere.popup" timestamp="1586094714273">
       <screen x="0" y="23" width="1405" height="877" />
     </state>
@@ -708,8 +712,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Semester_Works/Semester_1/Tests/Polinom3Tests.java</url>
-          <line>42</line>
+          <line>43</line>
           <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Semester_Works/Semester_1/Polinom3.java</url>
+          <line>92</line>
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Semester_Works/Semester_1/Polinom3.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="130" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/FirstSem/Lesson_6/FourthTask.java</url>
