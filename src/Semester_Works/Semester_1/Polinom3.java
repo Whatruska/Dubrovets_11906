@@ -46,12 +46,12 @@ public class Polinom3 {
     //T = O(K + N)
     public void add(Polinom3 polinom){
         PolinomList polinomList = polinom.list;
-        PolinomList resultList = new PolinomList();
-        PolinomListItem resultElem = resultList.getHead();
         PolinomListItem item2 = polinomList.getHead();
         PolinomListItem item1 = list.getHead();
         int size1 = list.size();
         int size2 = polinomList.size();
+        PolinomListItem[] items = new PolinomListItem[size1 + size2];
+        int freeIndex = 0;
         int i = 0,j = 0;
         while (i < size1 && j < size2){
             int compare = item1.compareTo(item2);
@@ -66,33 +66,29 @@ public class Polinom3 {
                 j++;
             } else {
                 selected = item1.copy();
-                item1 = item1.getNext();
                 selected.setCoef(item1.getCoef() + item2.getCoef());
+                item1 = item1.getNext();
                 i++;
+                item2 = item2.getNext();
+                j++;
             }
-            if (resultList.size() == 0){
-                resultList.add(selected);
-                resultElem = resultList.getHead();
-            } else {
-                resultElem.setNext(selected);
-                resultElem = resultElem.getNext();
-            }
+            items[freeIndex] = selected;
+            freeIndex++;
         }
         while (i < size1){
-            resultElem.setNext(item1);
-            resultElem = resultElem.getNext();
+            items[freeIndex] = item1;
+            freeIndex++;
             item1 = item1.getNext();
             i++;
         }
         while (j < size2){
-            resultElem.setNext(item2);
-            resultElem = resultElem.getNext();
+            items[freeIndex] = item2;
+            freeIndex++;
             item2 = item2.getNext();
             j++;
         }
 
-        resultList.setSize(list.size() + polinomList.size());
-        list = resultList;
+        list = new PolinomList(items);
     }
     //T = O(N)
     public void delete(int xDeg, int yDeg, int zDeg){
@@ -121,6 +117,9 @@ public class Polinom3 {
             }
             item = item.getNext();
         }
+        if (newList.size() == 0){
+          newList.add(0,0,0,0);
+        }
         list = newList;
     }
 
@@ -147,11 +146,6 @@ public class Polinom3 {
         if (o == null || getClass() != o.getClass()) return false;
         Polinom3 polinom3 = (Polinom3) o;
         return Objects.equals(list, polinom3.list);
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(list);
     }
 
     @Override

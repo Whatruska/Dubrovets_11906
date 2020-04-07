@@ -11,16 +11,27 @@ public class PolinomList {
 
     public PolinomList(){}
 
+    public PolinomList(PolinomListItem[] arr){
+        PolinomListItem last = head;
+        for (int i = 0; i < arr.length; i++){
+            if (arr[i] != null) {
+                if (i == 0){
+                    head = arr[i];
+                } else {
+                    last.setNext(arr[i]);
+                    last = last.getNext();
+                }
+                size++;
+            }
+        }
+    }
+
     public PolinomListItem getHead() {
         return head;
     }
 
     public int size(){
         return size;
-    }
-
-    public void setSize(int size) {
-        this.size = size;
     }
 
     //T = O(N)

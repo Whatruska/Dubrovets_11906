@@ -84,29 +84,4 @@ public class PolinomListTests {
         PolinomList expected = new PolinomList(item);
         Assert.assertEquals(list, expected);
     }
-
-    @Test
-    public void combineHead(){
-        PolinomList list = new PolinomList();
-        PolinomListItem item = new PolinomListItem(1, 1, 1, 1);
-        PolinomListItem item3 = new PolinomListItem(3, 1, 1, 1);
-        list.combine(item);
-        list.combine(item3);
-        PolinomList expected = new PolinomList(new PolinomListItem(4,1,1,1));
-        Assert.assertEquals(list, expected);
-    }
-
-    @Test
-    public void combineCommon(){
-        PolinomList list = new PolinomList();
-        PolinomListItem item = new PolinomListItem(1, 1, 1, 1);
-        PolinomListItem item2 = new PolinomListItem(1, 2, 1, 1);
-        PolinomListItem item3 = new PolinomListItem(3, 1, 1, 1);
-        list.combine(item);
-        list.combine(item2);
-        list.combine(item3);
-        PolinomList expected = new PolinomList(new PolinomListItem(4,1,1,1));
-        expected.add(item2);
-        Assert.assertEquals(list, expected);
-    }
 }

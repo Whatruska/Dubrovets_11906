@@ -38,6 +38,18 @@ public class Polinom3Tests {
     }
 
     @Test
+    public void mergeAdd() throws FileNotFoundException, URISyntaxException {
+        Polinom3 pol1 = new Polinom3();
+        Polinom3 pol2 = new Polinom3();
+        pol1.insert(1,1,1,2);
+        pol2.insert(3,1,1,2);
+        pol1.add(pol2);
+        Polinom3 expected = new Polinom3();
+        expected.insert(4,1,1,2);
+        Assert.assertEquals(pol1, expected);
+    }
+
+    @Test
     public void commonDerivativeTest() throws FileNotFoundException, URISyntaxException {
         Polinom3 pol1 = new Polinom3("input.txt");
         Polinom3 expected = new Polinom3();
@@ -50,6 +62,7 @@ public class Polinom3Tests {
     public void nullDerivativeTest() throws FileNotFoundException, URISyntaxException {
         Polinom3 pol1 = new Polinom3("input.txt");
         Polinom3 expected = new Polinom3();
+        expected.insert(0,0,0,0);
         pol1.derivative(2);
         pol1.derivative(2);
         pol1.derivative(2);
