@@ -20,7 +20,7 @@ public class Polinom3 {
 
     public Polinom3() {}
 
-    //T = O(N), M = O(N)
+    //T = O(N^2), M = O(N)
     private PolinomList<PolinomListItem> formPolinomList(String filename) throws IOException {
         PolinomList<PolinomListItem> result = new PolinomList<>();
         Path p = Paths.get("src/Semester_Works/Semester_1/" + filename);
@@ -97,16 +97,17 @@ public class Polinom3 {
         list.delete(xDeg, yDeg, zDeg);
     }
 
-    //T = O(N^2)
+    //T = O(N) M = O(N)
     public void derivative(int i){
-        PolinomList<PolinomListItem> newList = new PolinomList<>();
         int size = list.size();
-        PolinomListItem item = list.getHead();
+        PolinomListItem[] items = new PolinomListItem[size];
+        int freeIndex = 0;
+        PolinomListItem curr = list.getHead();
         for (int j = 0; j < size; j++){
-            int x = (i == 1 ? item.getXDegree() : i == 2 ? item.getYDegree() : item.getZDegree());
+            int x = (i == 1 ? curr.getXDegree() : i == 2 ? curr.getYDegree() : curr.getZDegree());
             if (x != 0){
-                PolinomListItem copy = item.copy();
-                copy.setCoef(item.getCoef() * x);
+                PolinomListItem copy = curr.copy();
+                copy.setCoef(curr.getCoef() * x);
                 if (i == 1){
                     copy.setXDegree(--x);
                 } else if (i == 2){
@@ -114,15 +115,17 @@ public class Polinom3 {
                 } else {
                     copy.setZDegree(--x);
                 }
-                //T = O(N)
-                newList.add(copy);
+
+                items[freeIndex] = copy;
+            } else {
+
             }
-            item = item.getNext();
+            curr = curr.getNext();
         }
-        if (newList.size() == 0){
-          newList.add(0,0,0,0);
+        if (items.length > 0 && items[0] == null){
+            items[0] = new PolinomListItem(0,0,0,0);
         }
-        list = newList;
+        list = new PolinomList<>(items);
     }
 
     //T = O(N)

@@ -37,36 +37,37 @@ public class PolinomList<T extends PolinomListItem> {
 
     //T = O(N)
     public void add(T item){
-        item = (T)item.copy();
-        T curr = head;
-        T prev = head;
-
-        if (size == 0){
-            head = item;
-        } else {
-            while (item.compareTo(curr) < 0){
-                if (curr == head){
-                    curr = (T)curr.getNext();
-                } else {
-                    curr = (T)curr.getNext();
-                    prev = (T)prev.getNext();
-                }
-            }
-            if (item.compareTo(curr) == 0){
-                curr.setCoef(item.getCoef());
-                size--;
+        if (item != null){
+            item = (T)item.copy();
+            T curr = head;
+            T prev = head;
+            if (size == 0){
+                head = item;
             } else {
-                if (curr == head){
-                    head = item;
-                    item.setNext(curr);
+                while (item.compareTo(curr) < 0){
+                    if (curr == head){
+                        curr = (T)curr.getNext();
+                    } else {
+                        curr = (T)curr.getNext();
+                        prev = (T)prev.getNext();
+                    }
+                }
+                if (item.compareTo(curr) == 0){
+                    curr.setCoef(item.getCoef());
+                    size--;
                 } else {
-                    item.setNext(curr);
-                    prev.setNext(item);
+                    if (curr == head){
+                        head = item;
+                        item.setNext(curr);
+                    } else {
+                        item.setNext(curr);
+                        prev.setNext(item);
+                    }
                 }
             }
-        }
 
-        size++;
+            size++;
+        }
     }
 
     public void add(int coef, int deg1, int deg2, int deg3){
@@ -74,35 +75,37 @@ public class PolinomList<T extends PolinomListItem> {
     }
 
     //T = O(N)
-    public void delete(PolinomListItem item){
-        PolinomListItem curr = head;
-        PolinomListItem prev = head;
+    public void delete(T item){
+        T curr = head;
+        T prev = head;
 
-        if (size > 0){
-            while (item.compareTo(curr) < 0){
+        if(item != null){
+            if (size > 0){
+                while (item.compareTo(curr) < 0){
+                    if (curr == head){
+                        curr = (T)curr.getNext();
+                    } else {
+                        curr = (T)curr.getNext();
+                        prev = (T)prev.getNext();
+                    }
+                }
                 if (curr == head){
-                    curr = curr.getNext();
+                    head = (T)head.getNext();
                 } else {
-                    curr = curr.getNext();
-                    prev = prev.getNext();
+                    if (curr != null && curr.compareTo(item) == 0){
+                        prev.setNext(curr.getNext());
+                        curr.setNext(null);
+                    } else {
+                        size++;
+                    }
                 }
+                size--;
             }
-            if (curr == head){
-                head = (T)head.getNext();
-            } else {
-                if (curr != null && curr.compareTo(item) == 0){
-                    prev.setNext(curr.getNext());
-                    curr.setNext(null);
-                } else {
-                    size++;
-                }
-            }
-            size--;
         }
     }
 
     public void delete(int deg1, int deg2, int deg3){
-        delete(new PolinomListItem(0, deg1, deg2, deg3));
+        delete((T)new PolinomListItem(0, deg1, deg2, deg3));
     }
 
     @Override

@@ -26,6 +26,13 @@ public class Polinom3Tests {
     }
 
     @Test
+    public void emptyFileInput() throws IOException {
+        Polinom3 curr = new Polinom3("empty.txt");
+        Polinom3 expected = new Polinom3();
+        Assert.assertEquals(curr, expected);
+    }
+
+    @Test
     public void correctAdd() throws IOException {
         Polinom3 pol1 = new Polinom3("input.txt");
         Polinom3 pol2 = new Polinom3("input2.txt");
@@ -50,6 +57,14 @@ public class Polinom3Tests {
     }
 
     @Test
+    public void emptyAdd() {
+        Polinom3 curr = new Polinom3();
+        curr.add(new Polinom3());
+        Polinom3 expected = new Polinom3();
+        Assert.assertEquals(curr, expected);
+    }
+
+    @Test
     public void commonDerivativeTest() throws IOException {
         Polinom3 pol1 = new Polinom3("input.txt");
         Polinom3 expected = new Polinom3();
@@ -70,10 +85,26 @@ public class Polinom3Tests {
     }
 
     @Test
+    public void emptyDerivative() {
+        Polinom3 pol1 = new Polinom3();
+        Polinom3 expected = new Polinom3();
+        pol1.derivative(2);
+        Assert.assertEquals(pol1, expected);
+    }
+
+    @Test
     public void valueOfNull() throws IOException {
         Polinom3 pol1 = new Polinom3("input.txt");
         pol1.delete(1,2,2);
         Assert.assertEquals(0, pol1.value(1,1,1));
+    }
+
+    @Test
+    public void constValue() throws IOException {
+        Polinom3 pol1 = new Polinom3("input.txt");
+        pol1.delete(1,2,2);
+        pol1.insert(4,0,0,0);
+        Assert.assertEquals(4, pol1.value(1,1,1));
     }
 
     @Test
