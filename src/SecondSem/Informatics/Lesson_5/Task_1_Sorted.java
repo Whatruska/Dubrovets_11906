@@ -4,7 +4,7 @@ import java.io.*;
 import java.nio.file.Paths;
 import java.util.StringTokenizer;
 
-public class Task1_Sorted {
+public class Task_1_Sorted {
     private static final String publicPath = "src/SecondSem/Informatics/Lesson_5/Files/";
 
     public static void main(String[] args) throws IOException {
