@@ -4,6 +4,9 @@ public class ListElement<T> {
     private T value;
     private ListElement<T> next;
 
+    public ListElement() {
+    }
+
     public ListElement(T value) {
         this.value = value;
         next = null;
