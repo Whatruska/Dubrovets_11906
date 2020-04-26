@@ -117,8 +117,6 @@ public class Polinom3 {
                 }
 
                 items[freeIndex] = copy;
-            } else {
-
             }
             curr = curr.getNext();
         }

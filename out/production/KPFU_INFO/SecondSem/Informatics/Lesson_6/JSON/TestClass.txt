@@ -1,0 +1,3 @@
+{name:"Петя"; familia:"Петров"; otchestvo:"Петрович"; age:"18"; gender:"male"},
+{name:"Анна"; familia:"Аннович"; otchestvo:"Анновна"; age:"56"; gender:"female"},
+{name:"Сидор"; familia:"Сидорович"; otchestvo:"Сидоров"; age:"26"; gender:"male"}
