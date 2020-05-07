@@ -1,0 +1,3 @@
+{time:"13:20"; doctorId:"2"; roomId:"1"}
+{time:"12:20"; doctorId:"1"; roomId:"3"}
+{time:"14:20"; doctorId:"1"; roomId:"3"}

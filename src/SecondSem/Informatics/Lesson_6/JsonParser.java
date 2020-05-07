@@ -20,11 +20,11 @@ public class JsonParser {
             StringTokenizer tokenizer = new StringTokenizer(formatedString);
             JsonEntity entity = new JsonEntity();
             while (tokenizer.hasMoreTokens()){
-                String pair = tokenizer.nextToken();
+                String pair = tokenizer.nextToken(";").trim();
                 String formatedPair = pair.replaceAll("[\"\\;]","");
-                StringTokenizer tok = new StringTokenizer(formatedPair);
-                String field = tok.nextToken(":");
-                String value = tok.nextToken();
+                int index = formatedPair.indexOf(':');
+                String field = formatedPair.substring(0, index);
+                String value = formatedPair.substring(index + 1);
                 entity.addProperty(field, value);
             }
             entities[freeIndex++] = entity;

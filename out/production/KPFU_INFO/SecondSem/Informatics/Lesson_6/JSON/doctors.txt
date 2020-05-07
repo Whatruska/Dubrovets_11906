@@ -1,0 +1,2 @@
+{id:"1"; fullName:"Иванов Иван Иванович"; specializationId:"2"}
+{id:"2"; fullName:"Сидоров Сидр Сидорович"; specializationId:"3"}

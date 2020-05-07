@@ -10,6 +10,9 @@ import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) throws IOException, URISyntaxException {
-        Files.lines(Path.of(Main.class.getResource("input.txt").toURI())).forEach(System.out::println);
+        (new MyThread()).start();
+        (new MyThread()).start();
+        (new MyThread()).start();
+        (new MyThread()).start();
     }
 }

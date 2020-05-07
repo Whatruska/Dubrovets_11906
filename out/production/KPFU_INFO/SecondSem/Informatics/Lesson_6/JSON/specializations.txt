@@ -1,0 +1,4 @@
+{specialization:"Эндокринолог"; id:"1"}
+{specialization:"Терапевт"; id:"2"}
+{specialization:"Стоматолог"; id:"3"}
+{specialization:"Хирург"; id:"4"}

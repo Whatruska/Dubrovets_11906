@@ -1,11 +1,17 @@
 package SecondSem.ADS.Lesson_11;
 
+import SecondSem.Informatics.Lesson_6.StoreInFile;
+
 import java.util.StringTokenizer;
 
+@StoreInFile(name = "timetables.txt")
 public class Timetable {
-    private final String time;
-    private final int doctorId;
-    private final int roomId;
+    private String time;
+    private int doctorId;
+    private int roomId;
+
+    public Timetable() {
+    }
 
     public Timetable(String timetableLine){
         StringTokenizer st = new StringTokenizer(timetableLine);

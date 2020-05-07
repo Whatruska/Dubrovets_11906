@@ -1,9 +1,15 @@
 package SecondSem.ADS.Lesson_11;
+import SecondSem.Informatics.Lesson_6.StoreInFile;
+
 import java.util.StringTokenizer;
 
+@StoreInFile(name = "specializations.txt")
 public class Specialization {
-    private final String specialization;
-    private final int id;
+    private String specialization;
+    private int id;
+
+    public Specialization() {
+    }
 
     public int getId() {
         return id;
@@ -17,6 +23,5 @@ public class Specialization {
         StringTokenizer st = new StringTokenizer(specializationLine);
         this.specialization=st.nextToken();
         this.id = Integer.parseInt(st.nextToken());
-
     }
 }

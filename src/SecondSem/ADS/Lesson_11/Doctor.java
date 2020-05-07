@@ -1,14 +1,19 @@
 package SecondSem.ADS.Lesson_11;
 
+import SecondSem.Informatics.Lesson_6.StoreInFile;
+
 import java.util.StringTokenizer;
 
+@StoreInFile(name = "doctors.txt", allFields = true)
 public class Doctor {
 
-    private final int id;
-    private final String fullName;
-    private final String shortName;
-    private final int specializationId;
+    private int id;
+    private String fullName;
+    private int specializationId;
     private int people = 0;
+
+    public Doctor() {
+    }
 
     public Doctor(String doctorLine){
         StringTokenizer st = new StringTokenizer(doctorLine);
@@ -17,7 +22,6 @@ public class Doctor {
         String name = st.nextToken();
         String patronymic = st.nextToken();
         this.fullName = String.join(" ", surname, name, patronymic);
-        this.shortName = surname + " " + name.charAt(0) + "." + patronymic.charAt(0) + ".";
         this.specializationId = Integer.parseInt(st.nextToken());
     }
 
@@ -42,7 +46,12 @@ public class Doctor {
     }
 
     public String getShortName() {
-        return shortName;
+        StringTokenizer token = new StringTokenizer(fullName);
+        String result = "";
+        result += token.nextToken() + " ";
+        result += token.nextToken().charAt(0) + ".";
+        result += token.nextToken().charAt(0) + ".";
+        return result;
     }
 
 }
