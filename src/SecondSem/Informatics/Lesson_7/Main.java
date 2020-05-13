@@ -6,6 +6,8 @@ import SecondSem.ADS.Lesson_11.Specialization;
 import SecondSem.ADS.Lesson_11.Timetable;
 import SecondSem.Informatics.Lesson_6.Framework;
 
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -22,5 +24,32 @@ public class Main {
         }).distinct().collect(Collectors.toList());
 
         usedRooms.forEach(System.out::println);
+
+        Doctor bestDoctorInEntireUniverse =  doctors.stream().map(doctor -> {
+            int id = doctor.getId();
+            timetable.forEach(timetable1 -> {
+                if (timetable1.getDoctorId() == id){
+                    doctor.incPeople();
+                }
+            });
+            return doctor;
+        }).max(Comparator.comparingInt(Doctor::getPeople)).orElse(null);
+
+        specs.forEach(specialization -> {
+            if (specialization.getId() == bestDoctorInEntireUniverse.getSpecializationId()){
+                System.out.println(bestDoctorInEntireUniverse.getShortName() + " " + specialization.getSpecialization());
+            }
+        });
+
+        Room mostLoadedRoom = rooms.stream().max((room1,room2) -> {
+            int count1 = (int) timetable.stream().filter(timetable1 -> timetable1.getRoomId() == room1.getId()).count();
+            int count2 = (int) timetable.stream().filter(timetable1 -> timetable1.getRoomId() == room2.getId()).count();
+            return count1 - count2;
+        }).orElse(null);
+
+        List<Doctor> docs = timetable.stream().filter(timetable1 -> timetable1.getRoomId() == mostLoadedRoom.getId()).map(timetable1 -> doctors.stream().filter(doctor -> doctor.getId() == timetable1.getDoctorId()).findFirst().orElse(null)).distinct().collect(Collectors.toList());
+        docs.forEach(doctor -> {
+            System.out.println(doctor.getFullName());
+        });
     }
 }

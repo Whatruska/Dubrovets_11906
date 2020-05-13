@@ -4,9 +4,11 @@ import SecondSem.Informatics.Lesson_6.JSON.JsonEntity;
 
 import java.io.*;
 import java.nio.file.Files;
+import java.util.List;
 import java.util.StringTokenizer;
+import java.util.TreeMap;
 
-public class JsonParser {
+public class JsonHelper {
     public static JsonEntity[] parseJsonFile(File file) throws IOException {
         long entitiesCount = Files.lines(file.toPath()).count();
         JsonEntity[] entities = new JsonEntity[(int)entitiesCount];
@@ -31,5 +33,32 @@ public class JsonParser {
             line = reader.readLine();
         }
         return entities;
+    }
+
+    public static void writeEntitiesToFile(File file, List<JsonEntity> entities){
+        try {
+            PrintWriter writer = new PrintWriter(file);
+            int entityCount = 0;
+            for (JsonEntity entity : entities){
+                writer.append("{");
+                TreeMap<String, String> props = entity.getProperties();
+                int propsCount = 0;
+                for (String prop : props.keySet()){
+                    writer.append(prop + ":\"" + props.get(prop) + "\"");
+                    if (propsCount < props.size() - 1){
+                        writer.append("; ");
+                    }
+                    propsCount++;
+                }
+                writer.append("}");
+                if (entityCount < entities.size() - 1){
+                    writer.append(",\n");
+                }
+                entityCount++;
+            }
+            writer.close();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
     }
 }
